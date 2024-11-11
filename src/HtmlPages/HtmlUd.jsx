@@ -9,7 +9,7 @@ export function HtmlUd(){
     return(
 
         <>
-         <h1 className="html_ud_heading">These are the <strong style={{textDecoration : 'underline', color : 'blue'}}>Top 10</strong>  Youtube Playlists That You can Refer  </h1>
+         <h1 className="html_ud_heading">These are the <strong style={{textDecoration : 'underline', color : 'blue'}}>Top 5</strong> recommended Udemy links That You can Refer with certifications  </h1>
 
 
 <h4 className="des_ud_html">
@@ -20,7 +20,7 @@ export function HtmlUd(){
     </h4>
 
         {/* <-----------------------------------------1------------------------------------------*/}
-        <div className="container_html_yt_links">
+        <div className="container_html_ud_links">
 
             <p className="vid"> 1. HTML - Introduction to HTML Web Development
 
@@ -35,12 +35,12 @@ export function HtmlUd(){
 
         {/* <-----------------------------------------2------------------------------------------*/}
 
-        <div className="container_html_yt_links">
+        <div className="container_html_ud_links">
 
         <p className="vid"> 2. HTML and CSS for Beginners - Build a Website & Launch ONLINE
 
 
-        <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}} onClick={() => window.open(val1, "_blank")}>  Click Me </button>  
+        <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}} onClick={() => window.open(val2, "_blank")}>  Click Me </button>  
 
         </p>
         <p>
@@ -50,12 +50,12 @@ export function HtmlUd(){
 
         {/* <-----------------------------------------3------------------------------------------*/}
 
-        <div className="container_html_yt_links">
+        <div className="container_html_ud_links">
 
         <p className="vid"> 3. Learn HTML and CSS in 7 Days | Web Developer Bootcamp
 
 
-        <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}} onClick={() => window.open(val1, "_blank")}>  Click Me </button>  
+        <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}} onClick={() => window.open(val3, "_blank")}>  Click Me </button>  
 
             </p>
             <p>
@@ -65,12 +65,12 @@ export function HtmlUd(){
 
         {/* <-----------------------------------------4------------------------------------------*/}
 
-            <div className="container_html_yt_links">
+            <div className="container_html_ud_links">
 
             <p className="vid"> 4. Learn HTML: Course For Beginners
 
 
-            <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}} onClick={() => window.open(val1, "_blank")}>  Click Me </button>  
+            <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}} onClick={() => window.open(val4, "_blank")}>  Click Me </button>  
 
             </p>
             <p>
@@ -81,12 +81,12 @@ export function HtmlUd(){
 
         {/* <-----------------------------------------5------------------------------------------*/}
         
-            <div className="container_html_yt_links">
+            <div className="container_html_ud_links">
 
             <p className="vid"> 5. HTML5: HTML Authoring Certification Course
 
 
-            <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}} onClick={() => window.open(val1, "_blank")}>  Click Me </button>  
+            <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}} onClick={() => window.open(val5, "_blank")}>  Click Me </button>  
 
             </p>
             <p>

@@ -537,9 +537,9 @@ nav ul li a {
   margin-top : 24px;
 }
 
-/* It is from The Html YouTube Top 10 Links */
+/* It is from The Html ( Yt , Ud , co , bp , gfg ) etc..... Top 10 Links */
 
-.html_yt_heading{
+.html_yt_heading,.html_co_heading,.html_ud_heading,.html_gfg_heading{
 
     font-size: 30px;
     text-align: center;
@@ -547,18 +547,19 @@ nav ul li a {
 
 }
 
-.des_yt_html{
+.des_yt_html,.des_co_html,.des_ud_html,.des_bp_html{
 
-  font-size: 27px;
+  font-size: 25px;
   font-family:'Times New Roman', Times, serif;
   margin-left: 40px;
   margin-bottom : 40px;
   font-weight: 600;
-
-
+  margin-top : 30px;
+  
 
 }
-.container_html_yt_links{
+.container_html_yt_links,.container_html_co_links,.container_html_ud_links,.container_html_gfg_links
+,.container_html_bp_links{
 
   padding : 10px;
 
@@ -567,5 +568,6 @@ nav ul li a {
 
   font-size : 22px;
   margin-left : 30px;
-  font-weight: 600;
+  font-weight: 550;
 }
+
