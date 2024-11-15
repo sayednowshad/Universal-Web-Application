@@ -1,15 +1,15 @@
 export function HtmlYt(props){
 
-const val1 = "https://youtu.be/UB1O30fR-EE?si=55EoNNF7zKL4Fnoo";
-const val2 = "https://www.youtube.com/watch?v=HD13eq_Pmp8&ab_channel=BroCode";
-const val3 = "https://youtu.be/qz0aGYrrlhU?si=tWdacM93KSAjZvtx";
-const val4 = "https://youtu.be/G3e-cpL7ofc?si=6iQlsVI7HL-jYrRu";
-const val5 = "https://youtu.be/h3bTwCqX4ns?si=J5P1ilR-7tOwhaD9";
-const val6 = "https://youtu.be/HcOc7P5BMi4?si=Gxr49hacmcwLwjNz";
-const val7 = "https://youtu.be/MBlkKE0GYGg?si=_pKv42eoHdG41q5q ";
-const val8 = "https://youtu.be/kUMe1FH4CHE?si=X1KIU2bg53mbrCmT ";
-const val9 = "https://youtu.be/5ccq_nLHneE?si=Ibnkp0MZP0eH0ErK ";
-const val10 = "https://youtu.be/k2DSi1zGEc8?si=oOG6Xni9tJsYAX-c ";
+const val1 ="";
+const val2 ="";
+const val3 ="";
+const val4 ="";
+const val5 ="";
+const val6 ="";
+const val7 ="";
+const val8 ="";
+const val9 ="";
+const val10="";
 
 
 

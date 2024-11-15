@@ -1,6 +1,7 @@
 import React from "react";
 import './web.css';
 import './App.css';
+// import CssUd from './CssPages/CssUd';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
  
@@ -38,6 +39,14 @@ import {HtmlBp} from "./HtmlPages/HtmlBp";
 import {HtmlGfg} from "./HtmlPages/HtmlGfg";
 import {HtmlQns} from "./HtmlPages/HtmlQns"; 
 
+import { CssYt } from "./CssPages/CssYt"; 
+import { CssUd } from "./CssPages/CssUd";
+import { CssCo } from "./CssPages/CssCo";
+import { CssBp } from "./CssPages/CssBp";
+import { CssGfg } from "./CssPages/CssGfg";
+import { CssQns } from "./CssPages/CssQns";
+
+
 
 function App(){ 
 
@@ -52,7 +61,7 @@ function App(){
 
         <Routes>
 
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/explore" element={<Explore />} />
@@ -73,13 +82,25 @@ function App(){
           <Route path='/js' element={<JavaScript/>} />
           <Route path='/react' element={<Reaction/>} />
 
+{/* Below contains Path + File , file means the final destination of the HTML Folder which means link was provided */}
+
           <Route path='/Exp_Fro_Html_Yt' element={<HtmlYt/>} />
           <Route path='/Exp_Fro_Html_Udemy' element={<HtmlUd/>} />
           <Route path='/Exp_Fro_Html_Qns' element={<HtmlQns/>} />
           <Route path='/Exp_Fro_Html_GitHub' element={<HtmlGit/>} />
           <Route path='/Exp_Fro_Html_Gfg' element={<HtmlGfg/>} />
           <Route path='/Exp_Fro_Html_Coursera' element={<HtmlCo/>} />
-          <Route path='/Exp_Fro_Html_BasicProjects' element={<HtmlBp/>} />
+          <Route path='/Exp_Fro_Html_BasicProjects' element={<HtmlBp/>} /> 
+
+          <Route path='/Exp_Fro_Css_Yt' element={<CssYt/>} />
+          <Route path='/Exp_Fro_Css_Udemy' element={<CssUd/>} />
+          <Route path='/Exp_Fro_Css_Qns' element={<CssQns/>} />
+          <Route path='/Exp_Fro_Css_Gfg' element={<CssGfg/>} />
+          <Route path='/Exp_Fro_Css_Coursera' element={<CssCo/>} />
+          <Route path='/Exp_Fro_Css_BasicProjects' element={<CssBp/>} /> 
+
+
+
         </Routes>
 
       </div>

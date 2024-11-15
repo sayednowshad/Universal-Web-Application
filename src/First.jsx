@@ -14,7 +14,7 @@ export function NavBar(){
 
       <ul>
 
-        <li><Link to="/"> Home Page </Link></li>
+        <li><Link to="/home"> Home </Link></li>
         <li><Link className='hello' to="/contact"> Contact </Link></li>
         <li><Link to="/about"> About </Link></li>
         <li><Link to="/explore"> Explore More </Link> </li>
@@ -61,7 +61,7 @@ export function CardSec(){
 
             <h4 >
 
-            <h3 className='tittle'> Unlimited resources to reduce your searching time, increasing explore more.<br/> Yeah,This website to             explore more with effective and reduce the time. </h3>
+            <h3 className='tittle'> Unlimited resources to reduce your searching time, increasing explore more.<br/> Yeah,This website to explore more with effective and reduce the time. </h3>
 
             </h4>
 
@@ -82,6 +82,7 @@ export function CardSec(){
     <p className='matter'> Explore any interest or trending topic, advance your skills without waste of time &more to get through easily</p>
     <button className='b_t' onClick={handleExploreClick}> Explore more </button>
     </div>
+
       {/*2nd container*/}
 
     <div className="container">
@@ -92,6 +93,7 @@ export function CardSec(){
     <p> Save your time & explore more contains all the values you can you this for the better experience further more.</p>
     <button className='b_t' style= {{marginTop : '4px'}} onClick={handleExploreClick}> Explore more </button>
     </div>
+
         {/* 3nd container */}
 
     <div className="container"> 
@@ -160,7 +162,7 @@ export function Login(){
     setEmail(e.target.value);
   };
 
-  const handlePasswordChange = (e) => {
+  const handlePasswordChange = (e) => { 
     setPassword(e.target.value);
   };
 

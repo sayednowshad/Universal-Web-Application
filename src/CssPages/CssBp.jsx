@@ -1,5 +1,5 @@
 
-export function HtmlBp(){
+export function CssBp(){
 
     return(
 
@@ -121,4 +121,4 @@ export function HtmlBp(){
     )
 }
 
-export default HtmlBp;
+export default CssBp;
