@@ -14,7 +14,7 @@ export function NavBar(){
 
       <ul>
 
-        <li><Link to="/home"> Home </Link></li>
+        <li><Link to="/"> Home </Link></li>
         <li><Link className='hello' to="/contact"> Contact </Link></li>
         <li><Link to="/about"> About </Link></li>
         <li><Link to="/explore"> Explore More </Link> </li>
@@ -30,16 +30,6 @@ export function NavBar(){
     )
 }
 
-// export function Header(){
-
-//   return(
-
-//     <>
-    
-
-//     </>
-//   )
-// }
 
 export function CardSec(){
 
