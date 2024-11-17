@@ -43,6 +43,7 @@ const val1_9= "https://www.geeksforgeeks.org/async-await-function-in-javascript/
         2. Enough Concepts to learn & Understand  <br/>
         3. Only important Concepts to learn through every topics
         </h4>
+
         {/* <-----------------------------------------1------------------------------------------*/}
         <div className="container_html_gfg_links">
 
@@ -112,8 +113,6 @@ const val1_9= "https://www.geeksforgeeks.org/async-await-function-in-javascript/
 
         <p className="vid"> 5. (Part-5)Var
 
-
-
         <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}}        onClick={() => window.open(val5, "_blank")}>  Click Me </button>  
 
         </p>
@@ -142,8 +141,6 @@ const val1_9= "https://www.geeksforgeeks.org/async-await-function-in-javascript/
 
         <p className="vid"> 7. (Part-7) Operators
 
-
-
         <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}}        onClick={() => window.open(val7, "_blank")}>  Click Me </button>  
 
         </p>
@@ -157,8 +154,6 @@ const val1_9= "https://www.geeksforgeeks.org/async-await-function-in-javascript/
         <div className="container_html_gfg_links">
 
         <p className="vid"> 8. (Part-8)Statements
-
-
 
         <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}}        onClick={() => window.open(val8, "_blank")}>  Click Me </button>  
 
@@ -188,9 +183,6 @@ const val1_9= "https://www.geeksforgeeks.org/async-await-function-in-javascript/
 
         <p className="vid"> 10. (Part-10) switch
 
-
-
-
         <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}}        onClick={() => window.open(val10, "_blank")}>  Click Me </button>  
 
         </p>
@@ -218,9 +210,6 @@ const val1_9= "https://www.geeksforgeeks.org/async-await-function-in-javascript/
 
         <p className="vid"> 12. (Part-12) Continue
 
-
-
-
         <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}}        onClick={() => window.open(val12, "_blank")}>  Click Me </button>  
 
         </p>
@@ -233,8 +222,6 @@ const val1_9= "https://www.geeksforgeeks.org/async-await-function-in-javascript/
         <div className="container_html_gfg_links">
 
         <p className="vid"> 13. (Part-13) Return 
-
-
         
         <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}}        onClick={() => window.open(val13, "_blank")}>  Click Me </button>  
 
@@ -253,8 +240,6 @@ const val1_9= "https://www.geeksforgeeks.org/async-await-function-in-javascript/
 
         <p className="vid"> 1.1 . (Part-1.1) Loops , for, while , do-while, for each etc…
 
-
-
         <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}}        onClick={() => window.open(val1_1, "_blank")}>  Click Me </button>  
 
         </p>
@@ -268,8 +253,6 @@ const val1_9= "https://www.geeksforgeeks.org/async-await-function-in-javascript/
         <div className="container_html_gfg_links">
 
         <p className="vid"> 1.2 . (Part-1.2) Objects , Structure Destructure 
-
-
 
 
         <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}}        onClick={() => window.open(val1_2, "_blank")}>  Click Me </button>  
@@ -286,9 +269,6 @@ const val1_9= "https://www.geeksforgeeks.org/async-await-function-in-javascript/
 
         <p className="vid"> 1.3 . (Part-1.3) Functions , Arrow Functions 
 
-
-
-
         <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}}        onClick={() => window.open(val1_3, "_blank")}>  Click Me </button>  
 
         </p>
@@ -303,9 +283,6 @@ const val1_9= "https://www.geeksforgeeks.org/async-await-function-in-javascript/
         <div className="container_html_gfg_links">
 
         <p className="vid"> 1.4 . (Part-1.4) Arrays
-
-
-
 
         <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}}        onClick={() => window.open(val1_4, "_blank")}>  Click Me </button>  
 
@@ -322,9 +299,6 @@ const val1_9= "https://www.geeksforgeeks.org/async-await-function-in-javascript/
 
         <p className="vid"> 1.5 . (Part-1.5) Strings
 
-
-
-
         <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}}        onClick={() => window.open(val1_5, "_blank")}>  Click Me </button>  
 
         </p>
@@ -340,9 +314,6 @@ const val1_9= "https://www.geeksforgeeks.org/async-await-function-in-javascript/
 
         <p className="vid"> 1.6 (Part-1.6) Numbers
 
-
-
-
         <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}}        onClick={() => window.open(val1_6, "_blank")}>  Click Me </button>  
 
         </p>
@@ -352,15 +323,11 @@ const val1_9= "https://www.geeksforgeeks.org/async-await-function-in-javascript/
         </div>
 
 
-
         {/* <-----------------------------------------1.7------------------------------------------*/}
 
         <div className="container_html_gfg_links">
 
         <p className="vid"> 1.7 . (Part-1.7) Map
-
-
-
 
         <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}}        onClick={() => window.open(val1_7, "_blank")}>  Click Me </button>  
 
@@ -391,9 +358,6 @@ const val1_9= "https://www.geeksforgeeks.org/async-await-function-in-javascript/
         <p className="vid"> 1.9 (Part-1.9) Async & Await 
 
 
-
-
-
     <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}}        onClick={() => window.open(val1_9, "_blank")}>  Click Me </button>  
 
     </p>
@@ -406,4 +370,4 @@ const val1_9= "https://www.geeksforgeeks.org/async-await-function-in-javascript/
     )
 }
 
-export default JsGfg;
+export default JsGfg; 

@@ -58,6 +58,16 @@ import JsBp from "./JsPages/JsBp";
 import JsGfg from "./JsPages/JsGfg";
 import JsQns from "./JsPages/JsQns";
 
+//All for the React means Reaction hahahhahaha bro iam just mad burrraaah
+
+import ReactYt from "./ReactPages/ReactYt";
+import ReactUd from "./ReactPages/ReactUd";
+import ReactQns from "./ReactPages/ReactQns";
+import ReactGit from "./ReactPages/ReactGit";
+import ReactGfg from "./ReactPages/ReactGfg";
+import ReactCo from "./ReactPages/ReactCo";
+import ReactBp from "./ReactPages/ReactBp";
+
 
 
 function App(){ 
@@ -87,7 +97,7 @@ function App(){
           <Route path="/cloud" element={<Cloud/>} />
           <Route path="/cyber" element={<Cyber/>} />
 
-{/* it is for the on Click of the choice of the frontend bro  */} 
+{/* it is for the on-Click of the choice to the frontend bro  */} 
 
           <Route path='/html' element={<HTML/>} />
           <Route path='/css' element={<CSS/>} />
@@ -95,6 +105,8 @@ function App(){
           <Route path='/react' element={<Reaction/>} />
 
 {/* Below contains Path + File , file means the final destination of the HTML Folder which means link was provided */}
+
+
 
           <Route path='/Exp_Fro_Html_Yt' element={<HtmlYt/>} />
           <Route path='/Exp_Fro_Html_Udemy' element={<HtmlUd/>} />
@@ -104,6 +116,9 @@ function App(){
           <Route path='/Exp_Fro_Html_Coursera' element={<HtmlCo/>} />
           <Route path='/Exp_Fro_Html_BasicProjects' element={<HtmlBp/>} /> 
 
+
+
+
           <Route path='/Exp_Fro_Css_Yt' element={<CssYt/>} />
           <Route path='/Exp_Fro_Css_Udemy' element={<CssUd/>} />
           <Route path='/Exp_Fro_Css_Qns' element={<CssQns/>} />
@@ -111,13 +126,34 @@ function App(){
           <Route path='/Exp_Fro_Css_Coursera' element={<CssCo/>} />
           <Route path='/Exp_Fro_Css_BasicProjects' element={<CssBp/>} /> 
 
+
+
+
           <Route path='/Exp_Fro_Js_Yt' element={<JsYt/>} />
           <Route path='/Exp_Fro_Js_Udemy' element={<JsUd/>} />
           <Route path='/Exp_Fro_Js_Qns' element={<JsQns/>} />
           <Route path='/Exp_Fro_Js_GitHub' element={<JsGit/>} />
           <Route path='/Exp_Fro_Js_Gfg' element={<JsGfg/>} />
           <Route path='/Exp_Fro_Js_Coursera' element={<JsCo/>} />
-          <Route path='/Exp_Fro_Js_BasicProjects' element={<JsBp/>} /> 
+          <Route path='/Exp_Fro_Js_BasicProjects' element={<JsBp/>} />
+
+
+
+
+          
+          <Route path='/Exp_Fro_React_Yt' element={<ReactYt/>} />
+          <Route path='/Exp_Fro_React_Udemy' element={<ReactUd/>} />
+          <Route path='/Exp_Fro_React_Qns' element={<ReactQns/>} />
+          <Route path='/Exp_Fro_React_GitHub' element={<ReactGit/>} />
+          <Route path='/Exp_Fro_React_Gfg' element={<ReactGfg/>} />
+          <Route path='/Exp_Fro_React_Coursera' element={<ReactCo/>} />
+          <Route path='/Exp_Fro_React_BasicProjects' element={<ReactBp/>} />
+
+
+
+
+
+
 
 
 
