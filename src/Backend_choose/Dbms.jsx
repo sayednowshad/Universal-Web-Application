@@ -1,36 +1,31 @@
 import { useNavigate } from 'react-router-dom';
 import { Footer } from '../First';
+ 
+
 // import JavaScript from '../FrontOption/JavaScript';
 // import Reaction from '../FrontOption/Reaction';
 
-export function Frontend(){
+export function Dbms_op(){
 
 
 
-    var navigate = useNavigate(); // FrontEnd html
-    var HTML = () => {
-      navigate('/html');
-
-    };
-
-    var navigate = useNavigate(); // FrontEnd Css
-    var CSS = () => {
-      navigate('/css');
+    var navigate = useNavigate();
+    var sql = () => {
+      navigate('/Dbms_MySQL'); //Mysql
 
     };
 
-    var navigate = useNavigate(); // FrontEnd Js
-    var JavaScript = () => {
-      navigate('/js');
+    var navigate = useNavigate(); 
+    var mongo = () => {
+      navigate('/Dbms_MongoDB'); // mongodb
 
     };
 
-    var navigate = useNavigate(); // FrontEnd React
-    var Reaction = () => {
-      navigate('/react');
+    var navigate = useNavigate(); 
+    var firebase = () => {
+      navigate('/Dbms_FireBase'); // firebase
 
     };
-
 
 
     return (
@@ -39,16 +34,11 @@ export function Frontend(){
 
     <div className="front_container">
 
-
-    
-
         <div className="front_contain"> 
 
-        <h2 className="fr_1"> Front End Development </h2>
+        <h2 className="fr_1"> Back End Development </h2>
         <p className="fr_2"> All the resources are available through the links only kindly refer to this. We are providing the <br/> recommended platform not for any other promotions. </p>
-
-        
-        
+     
         <p className="fr_rating">4.4 &#9733; &#9733; &#9733; &#9733; </p>
         <p> Created by  <a href="https://www.linkedin.com/in/sayednowshad/" style={{textDecoration: "underline" , fontSize : '17px' , fontFamily: 'sans-serif'}}> SayedNowshad </a>  </p>
 
@@ -77,10 +67,9 @@ export function Frontend(){
 
             <div className="fr_butt">
 
-                <button className="fr_butt_click" onClick={HTML} > HTML </button>
-                <button className="fr_butt_click" onClick={CSS}> CSS </button>
-                <button className="fr_butt_click" onClick={JavaScript}> JavaScript </button>
-                <button className="fr_butt_click" onClick={Reaction}> React </button>
+                <button className="fr_butt_click" onClick={sql} > MySQL </button>
+                <button className="fr_butt_click" onClick={mongo}> MongoDB </button>
+                <button className="fr_butt_click" onClick={firebase}> Firebase ( node.js) </button>
                 
             </div>
 
@@ -90,4 +79,4 @@ export function Frontend(){
     )
 }
 
-export default Frontend;
+export default Dbms_op; 

@@ -69,6 +69,15 @@ import ReactCo from "./ReactPages/ReactCo";
 import ReactBp from "./ReactPages/ReactBp";
 
 
+import Lang_op from "./Backend_choose/Lang_op";
+import { Dbms_op } from "./Backend_choose/Dbms";
+import { GitHub_op } from "./Backend_choose/github";
+import { Frame_op } from "./Backend_choose/Fram";
+import { Api_op } from "./Backend_choose/Api";
+import MySQL from "./Backend_Bases/MySql";
+import MongoDB from "./Backend_Bases/MongoDb";
+import FireBase from "./Backend_Bases/FireBase";
+
 
 function App(){ 
 
@@ -97,12 +106,13 @@ function App(){
           <Route path="/cloud" element={<Cloud/>} />
           <Route path="/cyber" element={<Cyber/>} />
 
-{/* it is for the on-Click of the choice to the frontend bro  */} 
+    {/* it is for the on-Click of the choice to the frontend bro  */} 
 
           <Route path='/html' element={<HTML/>} />
           <Route path='/css' element={<CSS/>} />
           <Route path='/js' element={<JavaScript/>} />
           <Route path='/react' element={<Reaction/>} />
+
 
 {/* Below contains Path + File , file means the final destination of the HTML Folder which means link was provided */}
 
@@ -117,16 +127,12 @@ function App(){
           <Route path='/Exp_Fro_Html_BasicProjects' element={<HtmlBp/>} /> 
 
 
-
-
           <Route path='/Exp_Fro_Css_Yt' element={<CssYt/>} />
           <Route path='/Exp_Fro_Css_Udemy' element={<CssUd/>} />
           <Route path='/Exp_Fro_Css_Qns' element={<CssQns/>} />
           <Route path='/Exp_Fro_Css_Gfg' element={<CssGfg/>} />
           <Route path='/Exp_Fro_Css_Coursera' element={<CssCo/>} />
           <Route path='/Exp_Fro_Css_BasicProjects' element={<CssBp/>} /> 
-
-
 
 
           <Route path='/Exp_Fro_Js_Yt' element={<JsYt/>} />
@@ -136,9 +142,6 @@ function App(){
           <Route path='/Exp_Fro_Js_Gfg' element={<JsGfg/>} />
           <Route path='/Exp_Fro_Js_Coursera' element={<JsCo/>} />
           <Route path='/Exp_Fro_Js_BasicProjects' element={<JsBp/>} />
-
-
-
 
           
           <Route path='/Exp_Fro_React_Yt' element={<ReactYt/>} />
@@ -150,10 +153,18 @@ function App(){
           <Route path='/Exp_Fro_React_BasicProjects' element={<ReactBp/>} />
 
 
+          <Route path='/Pro_languages' element={<Lang_op/>} />
+          <Route path='/dbms' element={<Dbms_op/>} />
+          <Route path='/Frames' element={<Frame_op/>} />
+          <Route path='/Api' element={<Api_op/>} />
+          <Route path='/Github' element={<GitHub_op/>} />
 
+           
+          <Route path='/Dbms_MySQL' element={<MySQL/>} /> 
+          <Route path='/Dbms_MongoDB' element={<MongoDB/>} />
+          <Route path='/Dbms_FireBase' element={<FireBase/>} />
 
-
-
+          {/* create teh above for the Pro_languages ok ???? easy with simple trick dont confuse see how the after click again see the after click function call and come here mean this App.js ok magic happens  */}
 
 
 

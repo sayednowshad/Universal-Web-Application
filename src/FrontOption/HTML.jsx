@@ -60,11 +60,15 @@ export function HTML(){
             <div className="container_html_pg" >  {/* Container FOr Youtube.... */}
 
             <img className="html_logo_yt" style={{height : '90px' , width : '90px'}}  src="https://thumbs.dreamstime.com/b/high-resolution-colored-youtube-logo-white-background-vector-eps-file-available-additional-download-colored-youtube-logo-175730434.jpg" />
+
             <h5 style={{margin : '30px 0px 0px 30px' , fontFamily : 'Arial' , fontWeight : 'bold'}}> Youtube Playlists &#9754; </h5>
+
             <div className="butt_yt">
 
             <button className="btn_html_yt" onClick={HtmlYt} > Click Me </button>
+
             </div>
+
             </div> {/* Ending Of YT Container.... */}
 
         {/* < ------------------------------------------ 2 ------------------------------------------------ >*/}
