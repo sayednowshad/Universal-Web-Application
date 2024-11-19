@@ -4,38 +4,35 @@ export function Python(){
 
     var navigate = useNavigate();
 
-    var HtmlYt = () => {
-      navigate('/Exp_Fro_Css_Yt');
+    var PyYt = () => {
+      navigate('/Backend_Py_Yt');
     };
 
     var navigate = useNavigate();
 
-    var HtmlUd = () => {
-      navigate('/Exp_Fro_Css_Udemy');
+    var PyUd = () => {
+      navigate('/Backend_Py_Udemy');
     };
 
     var navigate = useNavigate();
 
-    var HtmlQns = () => {
-      navigate('/Exp_Fro_Css_Qns');
+
+    var navigate = useNavigate();
+
+    var PyGfg = () => {
+      navigate('/Backend_Py_Gfg');
     };
 
     var navigate = useNavigate();
 
-    var HtmlGfg = () => {
-      navigate('/Exp_Fro_Css_Gfg');
+    var PyCo = () => {
+      navigate('/Backend_Py_Coursera');
     };
 
     var navigate = useNavigate();
-
-    var HtmlCo = () => {
-      navigate('/Exp_Fro_Css_Coursera');
-    };
-
-    var navigate = useNavigate();
-    var HtmlBp = () => {
-        navigate('/Exp_Fro_Css_Coursera');
-      };
+    var PyCodplat = () => {
+        navigate('/Backend_Py_Codplat');
+      }; 
    
    
 
@@ -57,7 +54,7 @@ export function Python(){
             <h5 style={{margin : '30px 0px 0px 30px' , fontFamily : 'Arial' , fontWeight : 'bold'}}> Youtube Playlists &#9754; </h5>
             <div className="butt_yt">
 
-            <button className="btn_html_yt" onClick={HtmlYt} > Click Me </button>
+            <button className="btn_html_yt" onClick={PyYt} > Click Me </button>
             </div>
             </div> {/* Ending Of YT Container.... */}
 
@@ -69,7 +66,7 @@ export function Python(){
             <h5 style={{margin : '30px 0px 0px 30px' , fontFamily : 'Arial' , fontWeight : 'bold'}}> Coursera &#9754;  </h5>
             <div className="butt_yt">
 
-            <button className="btn_html_yt"  onClick = {HtmlCo } > Click Me </button>
+            <button className="btn_html_yt"  onClick = {PyCo } > Click Me </button>
             </div>
             </div>
 
@@ -81,7 +78,7 @@ export function Python(){
             <h5 style={{margin : '30px 0px 0px 30px' , fontFamily : 'Arial' , fontWeight : 'bold'}}> Udemy Courses &#9754;  </h5>
             <div className="butt_yt">
 
-            <button className="btn_html_yt" onClick = {HtmlUd } > Click Me </button>
+            <button className="btn_html_yt" onClick = {PyUd } > Click Me </button>
             </div>
             </div>
 
@@ -95,7 +92,7 @@ export function Python(){
             <h5 style={{margin : '30px 0px 0px 20px' , fontFamily : 'Arial' , fontWeight : 'bold'}}> Geeks For Geeks &#9754; </h5>
             <div className="butt_yt">
 
-            <button className="btn_html_yt"  onClick = {HtmlGfg } > Click Me </button>
+            <button className="btn_html_yt"  onClick = {PyGfg } > Click Me </button>
             </div>
             </div>
 
@@ -107,20 +104,7 @@ export function Python(){
             <h5 style={{margin : '30px 0px 0px 30px' , fontFamily : 'Arial' , fontWeight : 'bold'}}> Coding Platforms &#9754;  </h5>
             <div className="butt_yt">
 
-            <button className="btn_html_yt" onClick = { HtmlBp} > Click Me </button>
-
-            </div>
-            </div>
-
-            {/* < ------------------------------------- 7 ---------------------------------------------------- >*/}
-
-            <div className="container_html_pg" >  {/* Container For Projects Qns.... */}
-
-            <img className="html_logo_yt" style={{height : '90px' , width : '90px'}}  src="https://cdn3.vectorstock.com/i/1000x1000/69/17/practice-stamp-on-white-vector-21646917.jpg" />
-            <h5 style={{margin : '30px 0px 0px 30px' , fontFamily : 'Arial' , fontWeight : 'bold'}}>Practice Qns &#9754; </h5>
-            <div className="butt_yt">
-
-            <button className="btn_html_yt"  onClick = {HtmlQns } > Click Me </button>
+            <button className="btn_html_yt" onClick = { PyCodplat } > Click Me </button>
 
             </div>
             </div>

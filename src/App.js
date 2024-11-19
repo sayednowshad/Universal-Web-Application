@@ -88,6 +88,14 @@ import {ExpressJs} from "./Frame_Options/Exp";
 import {Django} from "./Frame_Options/Django";
 import {Spring} from "./Frame_Options/Spring";
 
+import PyYt from "./Pro_lang_All_Backend/PyYt";
+import PyCo from "./Pro_lang_All_Backend/PyCo";
+import PyCodplat from "./Pro_lang_All_Backend/PyCoplat";
+import PyGfg from "./Pro_lang_All_Backend/PyGfg";
+import PyUd from "./Pro_lang_All_Backend/PyUd";
+
+
+
 
 function App(){ 
 
@@ -186,6 +194,12 @@ function App(){
           <Route path='/FrameWork_Flask' element={<Flask/>} />
           <Route path='/FrameWork_Spring' element={<Spring/>} />
 
+
+          <Route path='/Backend_Py_Yt' element={<PyYt/>} />
+          <Route path='/Backend_Py_Udemy' element={<PyUd/>} />
+          <Route path='/Backend_Py_Gfg' element={<PyGfg/>} />
+          <Route path='/Backend_Py_Coursera' element={<PyCo/>} />
+          <Route path='/Backend_Py_Codplat' element={<PyCodplat/>} />
 
 
 
