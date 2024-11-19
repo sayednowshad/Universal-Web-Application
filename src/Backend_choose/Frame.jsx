@@ -1,43 +1,37 @@
 import { useNavigate } from 'react-router-dom';
 import { Footer } from '../First';
-
+ 
 
 // import JavaScript from '../FrontOption/JavaScript';
 // import Reaction from '../FrontOption/Reaction';
 
-export function Backend(){
+export function Frame_op(){
 
-
-
-    var navigate = useNavigate(); // FrontEnd html
-    var Lang = () => {
-      navigate('/Pro_languages'); // p_lang
-
-    }; 
-
-    var navigate = useNavigate(); // FrontEnd Css
-    var Dbms = () => {
-      navigate('/dbms'); // DBMS
+    var navigate = useNavigate(); 
+    var expjs = () => {
+      navigate('/FrameWork_ExpressJs'); //Java
 
     };
 
-    var navigate = useNavigate(); // FrontEnd Js
-    var Frame = () => {
-      navigate('/Frames'); // Frame
+    var navigate = useNavigate(); 
+    var dj = () => {
+      navigate('/FrameWork_Django'); // Python
 
     };
 
-    var navigate = useNavigate(); // FrontEnd React
-    var Api = () => {
-      navigate('/Api'); // API
+    var navigate = useNavigate(); 
+    var flask = () => {
+      navigate('/FrameWork_Flask'); // Js
 
     };
 
-    var navigate = useNavigate(); // FrontEnd React
-    var GitHub = () => { 
-      navigate('/Github'); // Git_GitHub
+    var navigate = useNavigate(); 
+    var spring = () => {
+      navigate('/FrameWork_Spring'); // Js
 
     };
+
+   
 
 
 
@@ -80,11 +74,10 @@ export function Backend(){
 
             <div className="fr_butt">
 
-                <button className="fr_butt_click" onClick={Lang} > Programming Languages </button>
-                <button className="fr_butt_click" onClick={Dbms}> Data Base </button>
-                <button className="fr_butt_click" onClick={Frame}> FrameWorks </button>
-                <button className="fr_butt_click" onClick={Api}> API </button>
-                <button className="fr_butt_click" onClick={GitHub}> Git & GitHub </button> 
+                <button className="fr_butt_click" onClick={expjs} > Express Js </button>
+                <button className="fr_butt_click" onClick={dj}> Django </button>
+                <button className="fr_butt_click" onClick={flask}> Flask </button>
+                <button className="fr_butt_click" onClick={spring}> Spring Boot </button>
                 
             </div>
 
@@ -94,5 +87,4 @@ export function Backend(){
     )
 }
 
-export default Backend;
-
+export default Frame_op; 

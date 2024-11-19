@@ -69,14 +69,24 @@ import ReactCo from "./ReactPages/ReactCo";
 import ReactBp from "./ReactPages/ReactBp";
 
 
-import Lang_op from "./Backend_choose/Lang_op";
+import {Lang_op} from "./Backend_choose/Lang_op";
 import { Dbms_op } from "./Backend_choose/Dbms";
 import { GitHub_op } from "./Backend_choose/github";
-import { Frame_op } from "./Backend_choose/Fram";
+import { Frame_op } from "./Backend_choose/Frame";
 import { Api_op } from "./Backend_choose/Api";
-import MySQL from "./Backend_Bases/MySql";
-import MongoDB from "./Backend_Bases/MongoDb";
-import FireBase from "./Backend_Bases/FireBase";
+import {MySQL} from "./Backend_Bases/MySql";
+import {MongoDB} from "./Backend_Bases/MongoDb";
+import {FireBase} from "./Backend_Bases/FireBase";
+
+
+import {Java} from "./Backend_lang/Java";
+import {Python} from "./Backend_lang/Python";
+import {Js} from "./Backend_lang/Js";
+
+import {Flask} from "./Frame_Options/Flask";
+import {ExpressJs} from "./Frame_Options/Exp";
+import {Django} from "./Frame_Options/Django";
+import {Spring} from "./Frame_Options/Spring";
 
 
 function App(){ 
@@ -160,11 +170,23 @@ function App(){
           <Route path='/Github' element={<GitHub_op/>} />
 
            
-          <Route path='/Dbms_MySQL' element={<MySQL/>} /> 
+          <Route path='/Dbms_MySQL' element={<MySQL/>} />
           <Route path='/Dbms_MongoDB' element={<MongoDB/>} />
-          <Route path='/Dbms_FireBase' element={<FireBase/>} />
+          <Route path='/Dbms_FireBase' element={<FireBase/>} /> 
 
-          {/* create teh above for the Pro_languages ok ???? easy with simple trick dont confuse see how the after click again see the after click function call and come here mean this App.js ok magic happens  */}
+          {/* create the above for the Pro_languages ok ???? easy with simple trick dont confuse see how the after click again see the after click function call and come here means this "App.js" ok magic happens bro trust me.....  */}
+
+          <Route path='/Pro_languages_Java' element={<Java/>} />
+          <Route path='/Pro_languages_Python' element={<Python/>} />
+          <Route path='/Pro_languages_Js' element={<Js/>} />
+
+
+          <Route path='/FrameWork_ExpressJs' element={<ExpressJs/>} />
+          <Route path='/FrameWork_Django' element={<Django/>} />
+          <Route path='/FrameWork_Flask' element={<Flask/>} />
+          <Route path='/FrameWork_Spring' element={<Spring/>} />
+
+
 
 
 
