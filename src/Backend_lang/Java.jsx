@@ -45,7 +45,7 @@ export function Java(){
         
         <h1 className="html_head"> Links are below </h1> 
 
-        <p className="html_para"> These are the platforms for your <strong>HTML</strong> Study purpose. Utilize this and these are the recommended platforms to explore and gain knowledge for practice and do more, again this is not for any Promotions it is for the <strong> educational purpose </strong> to do more, explore all in shorten time.</p>
+        <p className="html_para"> These are the platforms for your <strong>Java</strong> Study purpose. Utilize this and these are the recommended platforms to explore and gain knowledge for practice and do more, again this is not for any Promotions it is for the <strong> educational purpose </strong> to do more, explore all in shorten time.</p>
 
             <h3 className="reco_html"> Recommended Platforms </h3>
 

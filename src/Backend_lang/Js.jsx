@@ -1,41 +1,36 @@
 import { useNavigate } from 'react-router-dom';
 
-export function Js(){
+export function Jsnode(){ 
 
     var navigate = useNavigate();
 
-    var HtmlYt = () => {
-      navigate('/Exp_Fro_Css_Yt');
+    var JsnodeYt = () => {
+      navigate('/Backend_Py_Yt');
     };
 
     var navigate = useNavigate();
 
-    var HtmlUd = () => {
-      navigate('/Exp_Fro_Css_Udemy');
+    var JsnodeUd = () => {
+      navigate('/Backend_Py_Udemy');
+    };
+
+
+    var navigate = useNavigate();
+
+    var JsnodeGfg = () => {
+      navigate('/Backend_Py_Gfg');
     };
 
     var navigate = useNavigate();
 
-    var HtmlQns = () => {
-      navigate('/Exp_Fro_Css_Qns');
+    var JsnodeCo = () => {
+      navigate('/Backend_Py_Coursera');
     };
 
     var navigate = useNavigate();
-
-    var HtmlGfg = () => {
-      navigate('/Exp_Fro_Css_Gfg');
-    };
-
-    var navigate = useNavigate();
-
-    var HtmlCo = () => {
-      navigate('/Exp_Fro_Css_Coursera');
-    };
-
-    var navigate = useNavigate();
-    var HtmlBp = () => {
-        navigate('/Exp_Fro_Css_Coursera');
-      };
+    var JsnodeCodplat = () => {
+        navigate('/Backend_Py_Codplat');
+      }; 
    
    
 
@@ -45,7 +40,7 @@ export function Js(){
         
         <h1 className="html_head"> Links are below </h1> 
 
-        <p className="html_para"> These are the platforms for your <strong>HTML</strong> Study purpose. Utilize this and these are the recommended platforms to explore and gain knowledge for practice and do more, again this is not for any Promotions it is for the <strong> educational purpose </strong> to do more, explore all in shorten time.</p>
+        <p className="html_para"> These are the platforms for your <strong>Js Node</strong> Study purpose. Utilize this and these are the recommended platforms to explore and gain knowledge for practice and do more, again this is not for any Promotions it is for the <strong> educational purpose </strong> to do more, explore all in shorten time.</p>
 
             <h3 className="reco_html"> Recommended Platforms </h3>
 
@@ -57,7 +52,7 @@ export function Js(){
             <h5 style={{margin : '30px 0px 0px 30px' , fontFamily : 'Arial' , fontWeight : 'bold'}}> Youtube Playlists &#9754; </h5>
             <div className="butt_yt">
 
-            <button className="btn_html_yt" onClick={HtmlYt} > Click Me </button>
+            <button className="btn_html_yt" onClick={JsnodeYt} > Click Me </button>
             </div>
             </div> {/* Ending Of YT Container.... */}
 
@@ -69,7 +64,7 @@ export function Js(){
             <h5 style={{margin : '30px 0px 0px 30px' , fontFamily : 'Arial' , fontWeight : 'bold'}}> Coursera &#9754;  </h5>
             <div className="butt_yt">
 
-            <button className="btn_html_yt"  onClick = {HtmlCo } > Click Me </button>
+            <button className="btn_html_yt"  onClick = {JsnodeCo } > Click Me </button>
             </div>
             </div>
 
@@ -81,7 +76,7 @@ export function Js(){
             <h5 style={{margin : '30px 0px 0px 30px' , fontFamily : 'Arial' , fontWeight : 'bold'}}> Udemy Courses &#9754;  </h5>
             <div className="butt_yt">
 
-            <button className="btn_html_yt" onClick = {HtmlUd } > Click Me </button>
+            <button className="btn_html_yt" onClick = {JsnodeUd } > Click Me </button>
             </div>
             </div>
 
@@ -95,7 +90,7 @@ export function Js(){
             <h5 style={{margin : '30px 0px 0px 20px' , fontFamily : 'Arial' , fontWeight : 'bold'}}> Geeks For Geeks &#9754; </h5>
             <div className="butt_yt">
 
-            <button className="btn_html_yt"  onClick = {HtmlGfg } > Click Me </button>
+            <button className="btn_html_yt"  onClick = {JsnodeGfg } > Click Me </button>
             </div>
             </div>
 
@@ -107,20 +102,7 @@ export function Js(){
             <h5 style={{margin : '30px 0px 0px 30px' , fontFamily : 'Arial' , fontWeight : 'bold'}}> Coding Platforms &#9754;  </h5>
             <div className="butt_yt">
 
-            <button className="btn_html_yt" onClick = { HtmlBp} > Click Me </button>
-
-            </div>
-            </div>
-
-            {/* < ------------------------------------- 7 ---------------------------------------------------- >*/}
-
-            <div className="container_html_pg" >  {/* Container For Projects Qns.... */}
-
-            <img className="html_logo_yt" style={{height : '90px' , width : '90px'}}  src="https://cdn3.vectorstock.com/i/1000x1000/69/17/practice-stamp-on-white-vector-21646917.jpg" />
-            <h5 style={{margin : '30px 0px 0px 30px' , fontFamily : 'Arial' , fontWeight : 'bold'}}>Practice Qns &#9754; </h5>
-            <div className="butt_yt">
-
-            <button className="btn_html_yt"  onClick = {HtmlQns } > Click Me </button>
+            <button className="btn_html_yt" onClick = { JsnodeCodplat } > Click Me </button>
 
             </div>
             </div>
@@ -129,4 +111,4 @@ export function Js(){
     )
 }
 
-export default Js; 
+export default Jsnode; 
