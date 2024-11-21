@@ -95,6 +95,22 @@ import {PyGfg} from "./Pro_lang_All_Backend/PyGfg";
 import {PyUd} from "./Pro_lang_All_Backend/PyUd";
 
 
+import JavaYt from "./Pro_lang_All_Backend/JavaYt";
+import JavaUd from "./Pro_lang_All_Backend/JavaUd";
+import JavaGfg from "./Pro_lang_All_Backend/JavaGfg";
+import JavaPrac from "./Pro_lang_All_Backend/JavaPrac";
+import JavaCo from "./Pro_lang_All_Backend/JavaCo";
+
+
+import JsnodeYt from "./Pro_lang_All_Backend/Js_Yt";
+import JsnodeCo from "./Pro_lang_All_Backend/Js_Co";
+import JsnodeGfg from "./Pro_lang_All_Backend/Js_Gfg";
+import JsnodeUd from "./Pro_lang_All_Backend/Js_Ud";
+import JsnodePrac from "./Pro_lang_All_Backend/Js_Prac";
+
+
+// This below contains the DatBase Categories
+
 import {SQLYt} from "./All_Backend_Base_Pages/SqlYt";
 import {SQLUd} from "./All_Backend_Base_Pages/SqlUd";
 import {SQLCo} from "./All_Backend_Base_Pages/SqlCo";
@@ -114,6 +130,8 @@ import {FireBaseCo} from "./All_Backend_Base_Pages/FireBaseCo";
 import {FireBaseGfg} from "./All_Backend_Base_Pages/FireBaseGfg";
 import {FireBasePrac} from "./All_Backend_Base_Pages/FireBasePrac";
 
+// This Below contains FrameWorks Of The Backend
+
 import {ExpressYt} from "./FrameWork_Final_Pages/ExpYt";
 import {ExpressCo} from "./FrameWork_Final_Pages/ExpCo";
 import {ExpressUd} from "./FrameWork_Final_Pages/ExpUd";
@@ -121,23 +139,37 @@ import {ExpressGfg} from "./FrameWork_Final_Pages/ExpGfg";
 import {ExpressPrac} from "./FrameWork_Final_Pages/ExpPrac";
 
 
-import SpringYt from "./FrameWork_Final_Pages/SpringYt";
-import SpringCo from "./FrameWork_Final_Pages/SpringCo";
-import SpringPrac from "./FrameWork_Final_Pages/SpringPrac";
-import SpringUd from "./FrameWork_Final_Pages/SpringUd";
-import SpringGfg from "./FrameWork_Final_Pages/SpringGfg";
+import {SpringYt} from "./FrameWork_Final_Pages/SpringYt";
+import {SpringCo} from "./FrameWork_Final_Pages/SpringCo";
+import {SpringPrac} from "./FrameWork_Final_Pages/SpringPrac";
+import {SpringUd} from "./FrameWork_Final_Pages/SpringUd";
+import {SpringGfg} from "./FrameWork_Final_Pages/SpringGfg";
 
-import FlaskYt from "./FrameWork_Final_Pages/FlaskYt"
-import FlaskCo from "./FrameWork_Final_Pages/FlaskCo"
-import FlaskUd from "./FrameWork_Final_Pages/FlaskUd"
-import FlaskGfg from "./FrameWork_Final_Pages/FlaskGfg"
-import FlaskPrac from "./FrameWork_Final_Pages/FlaskPrac"
+import {FlaskYt} from "./FrameWork_Final_Pages/FlaskYt"
+import {FlaskCo} from "./FrameWork_Final_Pages/FlaskCo"
+import {FlaskUd} from "./FrameWork_Final_Pages/FlaskUd"
+import {FlaskGfg} from "./FrameWork_Final_Pages/FlaskGfg"
+import {FlaskPrac} from "./FrameWork_Final_Pages/FlaskPrac"
 
-import DjangoYt from "./FrameWork_Final_Pages/DjangoYt";
-import DjangoCo from "./FrameWork_Final_Pages/DjangoCo";
-import DjangoUd from "./FrameWork_Final_Pages/DjangoUd";
-import DjangoGfg from "./FrameWork_Final_Pages/DjangoGfg";
-import DjangoPrac from "./FrameWork_Final_Pages/DjangoPrac";
+import {DjangoYt} from "./FrameWork_Final_Pages/DjangoYt";
+import {DjangoCo} from "./FrameWork_Final_Pages/DjangoCo";
+import {DjangoUd} from "./FrameWork_Final_Pages/DjangoUd";
+import {DjangoGfg} from "./FrameWork_Final_Pages/DjangoGfg";
+import {DjangoPrac} from "./FrameWork_Final_Pages/DjangoPrac";
+
+import ApiYt from "./API_Final_Pages/ApiYt";
+import ApiCo from "./API_Final_Pages/ApiCo";
+import ApiGfg from "./API_Final_Pages/ApiGfg";
+import ApiUd from "./API_Final_Pages/ApiUd";
+import ApiPrac from "./API_Final_Pages/ApiPrac";
+
+import GithubYt from "./GitHub_Final_pages/GithubYt";
+import GithubCo from "./GitHub_Final_pages/GithubCo";
+import GithubUd from "./GitHub_Final_pages/GithubUd";
+import GithubGfg from "./GitHub_Final_pages/GithubGfg";
+import GithubPrac from "./GitHub_Final_pages/GithubPrac";
+
+
 
 
 
@@ -250,6 +282,12 @@ function App(){
           <Route path='/Backend_Py_Codplat' element={<PyCodplat/>} />
 
 
+          <Route path='/Backend_Java_Yt' element={<JavaYt/>} />
+          <Route path='/Backend_Java_Udemy' element={<JavaUd/>} />
+          <Route path='/Backend_Java_Gfg' element={<JavaGfg/>} />
+          <Route path='/Backend_Java_Coursera' element={<JavaCo/>} />
+          <Route path='/Backend_Java_Codplat' element={<JavaPrac/>} />
+
 
           <Route path='/Backend_Sql_Yt' element={<SQLYt/>} />
           <Route path='/Backend_Sql_Udemy' element={<SQLUd/>} />
@@ -288,19 +326,44 @@ function App(){
           <Route path='/Backend_Frame_Spring_Coursera' element={<SpringCo/>} />
 
 {/* 3rd  Flask */}
-          <Route path='/Backend_Frame_Flask_Yt' element={<FlaskYt/>} />
-          <Route path='/Backend_Frame_Flask_Udemy' element={<FlaskUd/>} />
-          <Route path='/Backend_Frame_Flask_Gfg' element={<FlaskGfg/>} />
-          <Route path='/Backend_Frame_Flask_Codplat' element={<FlaskPrac/>} />
-          <Route path='/Backend_Frame_Flask_Coursera' element={<FlaskCo/>} />
+        <Route path='/Backend_Frame_Flask_Yt' element={<FlaskYt/>} />
+        <Route path='/Backend_Frame_Flask_Udemy' element={<FlaskUd/>} />
+        <Route path='/Backend_Frame_Flask_Gfg' element={<FlaskGfg/>} />
+        <Route path='/Backend_Frame_Flask_Codplat' element={<FlaskPrac/>} />
+        <Route path='/Backend_Frame_Flask_Coursera' element={<FlaskCo/>} />
 
 {/* 4th  Django */}
 
-          <Route path='/Backend_Frame_Django_Yt' element={<DjangoYt/>} />
-          <Route path='/Backend_Frame_Django_Udemy' element={<DjangoUd/>} />
-          <Route path='/Backend_Frame_Django_Gfg' element={<DjangoGfg/>} />
-          <Route path='/Backend_Frame_Django_Codplat' element={<DjangoPrac/>} />
-          <Route path='/Backend_Frame_Django_Coursera' element={<DjangoCo/>} />
+        <Route path='/Backend_Frame_Django_Yt' element={<DjangoYt/>} />
+        <Route path='/Backend_Frame_Django_Udemy' element={<DjangoUd/>} />
+        <Route path='/Backend_Frame_Django_Gfg' element={<DjangoGfg/>} />
+        <Route path='/Backend_Frame_Django_Codplat' element={<DjangoPrac/>} />
+        <Route path='/Backend_Frame_Django_Coursera' element={<DjangoCo/>} />
+
+        <Route path='/Backend_Api_Yt' element={<ApiYt/>} />
+        <Route path='/Backend_Api_Udemy' element={<ApiUd/>} />
+        <Route path='/Backend_Api_Gfg' element={<ApiGfg/>} />
+        <Route path='/Backend_Api_Codplat' element={<ApiPrac/>} />
+        <Route path='/Backend_Api_Coursera' element={<ApiCo/>} />
+
+
+        <Route path="/Backend_GitHub_Yt" element={<GithubYt/>} />
+        <Route path='/Backend_GitHub_Udemy' element={<GithubUd/>} />
+        <Route path='/Backend_GitHub_Gfg' element={<GithubGfg/>} />
+        <Route path='/Backend_GitHub_Codplat' element={<GithubPrac/>} />
+        <Route path='/Backend_GitHub_Coursera' element={<GithubCo/>} />
+
+
+
+        <Route path="/Backend_Jsnode_Yt" element={<JsnodeYt/>} />
+        <Route path='/Backend_Jsnode_Udemy' element={<JsnodeUd/>} />
+        <Route path='/Backend_Jsnode_Gfg' element={<JsnodeGfg/>} />
+        <Route path='/Backend_Jsnode_Codplat' element={<JsnodePrac/>} />
+        <Route path='/Backend_Jsnode_Coursera' element={<JsnodeCo/>} />
+
+
+
+
 
 
 

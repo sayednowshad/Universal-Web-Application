@@ -4,38 +4,35 @@ export function Java(){
 
     var navigate = useNavigate();
 
-    var HtmlYt = () => {
-      navigate('/Exp_Fro_Css_Yt');
+    var JavaYt = () => {
+      navigate('/Backend_Java_Yt');
     };
 
     var navigate = useNavigate();
 
-    var HtmlUd = () => {
-      navigate('/Exp_Fro_Css_Udemy');
+    var JavaUd = () => {
+      navigate('/Backend_Java_Udemy');
     };
 
     var navigate = useNavigate();
 
-    var HtmlQns = () => {
-      navigate('/Exp_Fro_Css_Qns');
+    var JavaQns = () => {
+      navigate('/Backend_Java_Codplat');
     };
 
     var navigate = useNavigate();
 
-    var HtmlGfg = () => {
-      navigate('/Exp_Fro_Css_Gfg');
+    var JavaGfg = () => {
+      navigate('/Backend_Java_Gfg');
     };
 
     var navigate = useNavigate();
 
-    var HtmlCo = () => {
-      navigate('/Exp_Fro_Css_Coursera');
+    var JavaCo = () => {
+      navigate('/Backend_Java_Coursera');
     };
 
-    var navigate = useNavigate();
-    var HtmlBp = () => {
-        navigate('/Exp_Fro_Css_Coursera');
-      };
+   
    
    
 
@@ -57,7 +54,7 @@ export function Java(){
             <h5 style={{margin : '30px 0px 0px 30px' , fontFamily : 'Arial' , fontWeight : 'bold'}}> Youtube Playlists &#9754; </h5>
             <div className="butt_yt">
 
-            <button className="btn_html_yt" onClick={HtmlYt} > Click Me </button>
+            <button className="btn_html_yt" onClick={JavaYt} > Click Me </button>
             </div>
             </div> {/* Ending Of YT Container.... */}
 
@@ -69,7 +66,7 @@ export function Java(){
             <h5 style={{margin : '30px 0px 0px 30px' , fontFamily : 'Arial' , fontWeight : 'bold'}}> Coursera &#9754;  </h5>
             <div className="butt_yt">
 
-            <button className="btn_html_yt"  onClick = {HtmlCo } > Click Me </button>
+            <button className="btn_html_yt"  onClick = {JavaCo } > Click Me </button>
             </div>
             </div>
 
@@ -81,7 +78,7 @@ export function Java(){
             <h5 style={{margin : '30px 0px 0px 30px' , fontFamily : 'Arial' , fontWeight : 'bold'}}> Udemy Courses &#9754;  </h5>
             <div className="butt_yt">
 
-            <button className="btn_html_yt" onClick = {HtmlUd } > Click Me </button>
+            <button className="btn_html_yt" onClick = {JavaUd } > Click Me </button>
             </div>
             </div>
 
@@ -95,20 +92,7 @@ export function Java(){
             <h5 style={{margin : '30px 0px 0px 20px' , fontFamily : 'Arial' , fontWeight : 'bold'}}> Geeks For Geeks &#9754; </h5>
             <div className="butt_yt">
 
-            <button className="btn_html_yt"  onClick = {HtmlGfg } > Click Me </button>
-            </div>
-            </div>
-
-            {/* < -------------------------------------- 6 ---------------------------------------------------- >*/}
-
-            <div className="container_html_pg" >  {/* Container FOr Basic Projects.... */}
-
-            <img className="html_logo_yt" style={{height : '90px' , width : '90px'}}  src="https://img.freepik.com/premium-vector/continuous-line-building-city-logo-design_15473-14266.jpg?semt=ais_hybrid" />
-            <h5 style={{margin : '30px 0px 0px 30px' , fontFamily : 'Arial' , fontWeight : 'bold'}}> Coding Platforms &#9754;  </h5>
-            <div className="butt_yt">
-
-            <button className="btn_html_yt" onClick = { HtmlBp} > Click Me </button>
-
+            <button className="btn_html_yt"  onClick = {JavaGfg } > Click Me </button>
             </div>
             </div>
 
@@ -120,7 +104,7 @@ export function Java(){
             <h5 style={{margin : '30px 0px 0px 30px' , fontFamily : 'Arial' , fontWeight : 'bold'}}>Practice Qns &#9754; </h5>
             <div className="butt_yt">
 
-            <button className="btn_html_yt"  onClick = {HtmlQns } > Click Me </button>
+            <button className="btn_html_yt"  onClick = {JavaQns } > Click Me </button>
 
             </div>
             </div>

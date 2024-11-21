@@ -1,4 +1,4 @@
-export function JsnodeUd(props){
+export function ApiUd(props){
 
     const val1 = "https://www.youtube.com/watch?v=ESnrn1kAD4E&ab_channel=ApnaCollege";
     const val2 = "https://www.youtube.com/watch?v=G3e-cpL7ofc&t=1062s&ab_channel=SuperSimpleDev";
@@ -29,7 +29,7 @@ export function JsnodeUd(props){
             {/* <-----------------------------------------1------------------------------------------*/}
             <div className="container_html_yt_links">
     
-                <p className="vid"> 1. Mera College
+                <p className="vid"> 1. Api College
     
                 {/* <strong style={{marginLeft : '40px', marginRight : '40px' ,border: '1px solid black', padding : '9px' , borderRadius: '7px', fontSize : '17px'
                 }}> HTML</strong> 4.7 &#9733; &#9733; &#9733; &#9733;
@@ -168,7 +168,7 @@ export function JsnodeUd(props){
                 10. Ws Cube Tech (TailWind CSS)  
                    
                 
-                <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}} onClick={() => window.open(val10, "_blank")} >  Click Me </button>  
+                <button style={{marginLeft : '200px', padding : '7px' , background : 'black', color:'white' , borderRadius : '8px'}} onClick={() => window.open(val10, "_blank")} > Click Me </button>  
     
                 </p>
             <p>
@@ -180,4 +180,4 @@ export function JsnodeUd(props){
         )
     }
     
-    export default JsnodeUd;
+    export default ApiUd;

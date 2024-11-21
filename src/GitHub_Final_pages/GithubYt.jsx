@@ -1,6 +1,6 @@
-export function JsnodeUd(props){
+export function GithubYt(props){
 
-    const val1 = "https://www.youtube.com/watch?v=ESnrn1kAD4E&ab_channel=ApnaCollege";
+    const val1 = "https://www.youtube.com/watch?v=ESnrn1kAD4E&ab_channel=ApnaCollege" ;
     const val2 = "https://www.youtube.com/watch?v=G3e-cpL7ofc&t=1062s&ab_channel=SuperSimpleDev";
     const val3 = "https://www.youtube.com/watch?v=WuiB5TAQOAM&ab_channel=PWSkillsTech";
     const val4 = "https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org";
@@ -26,10 +26,12 @@ export function JsnodeUd(props){
                 2. Animation Explanations with real world Examples <br/>
                 3. Important with Note Clarification.
                 </h4>
+                
             {/* <-----------------------------------------1------------------------------------------*/}
+
             <div className="container_html_yt_links">
     
-                <p className="vid"> 1. Mera College
+                <p className="vid"> 1. GitHub College
     
                 {/* <strong style={{marginLeft : '40px', marginRight : '40px' ,border: '1px solid black', padding : '9px' , borderRadius: '7px', fontSize : '17px'
                 }}> HTML</strong> 4.7 &#9733; &#9733; &#9733; &#9733;
@@ -180,4 +182,4 @@ export function JsnodeUd(props){
         )
     }
     
-    export default JsnodeUd;
+    export default GithubYt;

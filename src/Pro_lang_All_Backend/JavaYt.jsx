@@ -29,7 +29,7 @@ export function JavaYt(props){
             {/* <-----------------------------------------1------------------------------------------*/}
             <div className="container_html_yt_links">
     
-                <p className="vid"> 1. Apna College
+                <p className="vid"> 1. Java College
     
                 {/* <strong style={{marginLeft : '40px', marginRight : '40px' ,border: '1px solid black', padding : '9px' , borderRadius: '7px', fontSize : '17px'
                 }}> HTML</strong> 4.7 &#9733; &#9733; &#9733; &#9733;

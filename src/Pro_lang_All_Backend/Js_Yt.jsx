@@ -1,4 +1,4 @@
-export function Js_Yt(props){
+export function JsnodeYt(props){
 
     const val1 = "https://www.youtube.com/watch?v=ESnrn1kAD4E&ab_channel=ApnaCollege";
     const val2 = "https://www.youtube.com/watch?v=G3e-cpL7ofc&t=1062s&ab_channel=SuperSimpleDev";
@@ -180,4 +180,4 @@ export function Js_Yt(props){
         )
     }
     
-    export default Js_Yt;
+    export default JsnodeYt;

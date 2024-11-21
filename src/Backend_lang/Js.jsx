@@ -5,31 +5,31 @@ export function Jsnode(){
     var navigate = useNavigate();
 
     var JsnodeYt = () => {
-      navigate('/Backend_Py_Yt');
+      navigate('/Backend_Jsnode_Yt');
     };
 
     var navigate = useNavigate();
 
     var JsnodeUd = () => {
-      navigate('/Backend_Py_Udemy');
+      navigate('/Backend_Jsnode_Udemy');
     };
 
 
     var navigate = useNavigate();
 
     var JsnodeGfg = () => {
-      navigate('/Backend_Py_Gfg');
+      navigate('/Backend_Jsnode_Gfg');
     };
 
     var navigate = useNavigate();
 
     var JsnodeCo = () => {
-      navigate('/Backend_Py_Coursera');
+      navigate('/Backend_Jsnode_Coursera');
     };
 
     var navigate = useNavigate();
     var JsnodeCodplat = () => {
-        navigate('/Backend_Py_Codplat');
+        navigate('/Backend_Jsnode_Codplat');
       }; 
    
    
