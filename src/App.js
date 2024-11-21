@@ -169,6 +169,29 @@ import GithubUd from "./GitHub_Final_pages/GithubUd";
 import GithubGfg from "./GitHub_Final_pages/GithubGfg";
 import GithubPrac from "./GitHub_Final_pages/GithubPrac";
 
+import Unity from "./GameDevelopment_Resources/Unity";
+import UITools from "./GameDevelopment_Resources/UITools";
+import GameProjects from "./GameDevelopment_Resources/Projects";
+import GameCommunity from "./GameDevelopment_Resources/Community";
+import GoDot from "./GameDevelopment_Resources/GoDot";
+
+
+import UnityCo from "./GameDev_Final_Pages/UnityCo";
+import UnityUd from "./GameDev_Final_Pages/UnityUd";
+import UnityYt from "./GameDev_Final_Pages/UnityYt";
+import UnityDoc from "./GameDev_Final_Pages/UnityDoc";
+import UnityGitHub from "./GameDev_Final_Pages/UnityGithub";
+import UIToolsYt from "./GameDev_Final_Pages/UIToolsYt";
+import UIToolsWebsite from "./GameDev_Final_Pages/UIToolsWebsite";
+import GameProYt from "./GameDev_Final_Pages/GameProYt";
+import GameProGitHub from "./GameDev_Final_Pages/GameProGitHub";
+
+import GoDotYt from "./GameDev_Final_Pages/GoDotYt";
+import GoDotUd from "./GameDev_Final_Pages/GoDotUd";
+import GoDotCo from "./GameDev_Final_Pages/GoDotCo";
+import GoDotDoc from "./GameDev_Final_Pages/GoDotDoc";
+import GoDotGitHub from "./GameDev_Final_Pages/GoDotGithub";
+
 
 
 
@@ -361,8 +384,41 @@ function App(){
         <Route path='/Backend_Jsnode_Codplat' element={<JsnodePrac/>} />
         <Route path='/Backend_Jsnode_Coursera' element={<JsnodeCo/>} />
 
+            {/* Game Development Starts Here pretty Excited  */}
+
+        <Route path='/Unity' element={<Unity/>} />
+        <Route path='/UI_Tools' element={<UITools/>} />
+        <Route path='/Game_Projects' element={<GameProjects/>} />
+        <Route path='/Community_Group' element={<GameCommunity/>} />
+        <Route path='/GoDot' element={<GoDot/>} />
 
 
+        <Route path='/Game_Unity_Yt' element={<UnityYt/>} />
+        <Route path='/Game_Unity_Udemy' element={<UnityUd/>} />
+        <Route path='/Game_Unity_Coursera' element={<UnityCo/>} />
+        <Route path='/Game_Unity_Doc' element={<UnityDoc/>} />
+        <Route path='/Game_Unity_Github' element={<UnityGitHub/>} />
+
+
+        <Route path='/Game_UITools_Yt' element={<UIToolsYt/>} />
+        <Route path='/Game_UITools_Doc' element={<UIToolsWebsite/>} /> 
+
+        <Route path='/Game_Projects_Yt' element={<GameProYt/>} />
+        <Route path='/Game_Projects_GitHub' element={<GameProGitHub/>} />
+
+
+        <Route path='/Game_GoDot_Yt' element={<GoDotYt/>} />
+        <Route path='/Game_GoDot_Udemy' element={<GoDotUd/>} />
+        <Route path='/Game_GoDot_Coursera' element={<GoDotCo/>} />
+        <Route path='/Game_GoDot_Doc' element={<GoDotDoc/>} />
+        <Route path='/Game_GoDot_Github' element={<GoDotGitHub/>} />
+
+
+        
+
+
+        
+     
 
 
 
