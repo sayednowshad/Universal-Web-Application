@@ -169,6 +169,8 @@ import GithubUd from "./GitHub_Final_pages/GithubUd";
 import GithubGfg from "./GitHub_Final_pages/GithubGfg";
 import GithubPrac from "./GitHub_Final_pages/GithubPrac";
 
+//  "Game Development" Page Bro
+
 import Unity from "./GameDevelopment_Resources/Unity";
 import UITools from "./GameDevelopment_Resources/UITools";
 import GameProjects from "./GameDevelopment_Resources/Projects";
@@ -192,9 +194,38 @@ import GoDotCo from "./GameDev_Final_Pages/GoDotCo";
 import GoDotDoc from "./GameDev_Final_Pages/GoDotDoc";
 import GoDotGitHub from "./GameDev_Final_Pages/GoDotGithub";
 
+// "DevOps" Page Starts Here Bro......
 
-
-
+import SDLC from "./Devops_Resources/SDLC"
+import Linux from "./Devops_Resources/Linux"
+import CloudDevOps from "./Devops_Resources/CloudDevOps"
+import Git from "./Devops_Resources/Git"
+import DockerKuber from "./Devops_Resources/DockerKubernetes"
+import CiCd from "./Devops_Resources/CiCd"
+import SDLCYt from "./DevOps_Final_Pages/SDLCYt";
+import SDLCUd from "./DevOps_Final_Pages/SDLCUd";
+import SDLCCo from "./DevOps_Final_Pages/SDLCCo";
+import SDLCDoc from "./DevOps_Final_Pages/SDLCDoc";
+import LinuxYt from "./DevOps_Final_Pages/LinuxYt";
+import LinuxUd from "./DevOps_Final_Pages/LinuxUd";
+import LinuxCo from "./DevOps_Final_Pages/LinuxCo";
+import LinuxPdf from "./DevOps_Final_Pages/LinuxPdf";
+import GitYt from "./DevOps_Final_Pages/GitYt";
+import GitUd from "./DevOps_Final_Pages/GitUd";
+import GitCo from "./DevOps_Final_Pages/GitCo";
+import GitPdf from "./DevOps_Final_Pages/GitPdf";
+import DockerKuberYt from "./DevOps_Final_Pages/DockerKuberYt";
+import DockerKuberUd from "./DevOps_Final_Pages/DockerKuberUd";
+import DockerKuberWebsites from "./DevOps_Final_Pages/DockerKuberWebsites";
+import CiCdYt from "./DevOps_Final_Pages/CiCdYt";
+import CiCdCo from "./DevOps_Final_Pages/CiCdCo";
+import CiCdUd from "./DevOps_Final_Pages/CiCdUd";
+import CloudYt from "./DevOps_Final_Pages/CloudYt";
+import CloudUd from "./DevOps_Final_Pages/CloudUd";
+import CloudCo from "./DevOps_Final_Pages/CloudCo";
+import CloudDoc from "./DevOps_Final_Pages/CloudDoc";
+import CloudPdf from "./DevOps_Final_Pages/CloudPdf";
+import DockerKuberCo from "./DevOps_Final_Pages/DockerKuberCo";
 
 
 
@@ -413,13 +444,52 @@ function App(){
         <Route path='/Game_GoDot_Doc' element={<GoDotDoc/>} />
         <Route path='/Game_GoDot_Github' element={<GoDotGitHub/>} />
 
+        {/* <---------------------- Below Contains DevOps Websites ----------------> */} 
 
-        
+
+        <Route path='/SDLC' element={<SDLC/>} />
+        <Route path='/Linux' element={<Linux/>} />
+        <Route path='/Git' element={<Git/>} />
+        <Route path='/DevOps_Cloud' element={<CloudDevOps/>} />
+        <Route path='/Docker' element={<DockerKuber/>} />
+        <Route path='/CiCd' element={<CiCd/>} />
 
 
-        
-     
+        <Route path='/DevOps_SDLC_Yt' element={<SDLCYt/>} />
+        <Route path='/DevOps_SDLC_Udemy' element={<SDLCUd/>} />
+        <Route path='/DevOps_SDLC_Coursera' element={<SDLCCo/>} />
+        <Route path='/DevOps_SDLC_Doc' element={<SDLCDoc/>} />
 
+
+        <Route path='/DevOps_Linux_Yt' element={<LinuxYt/>} />
+        <Route path='/DevOps_Linux_Udemy' element={<LinuxUd/>} />
+        <Route path='/DevOps_Linux_Coursera' element={<LinuxCo/>} />
+        <Route path='/DevOps_Linux_PDF' element={<LinuxPdf/>} />
+
+
+        <Route path='/DevOps_Git_Yt' element={< GitYt/>} />
+        <Route path='/DevOps_Git_Udemy' element={<GitUd/>} />
+        <Route path='/DevOps_Git_Coursera' element={<GitCo/>} />
+        <Route path='/DevOps_Git_PDF' element={<GitPdf/>} />
+
+
+        <Route path='/DevOps_DockerKuber_Yt' element={< DockerKuberYt/>} />
+        <Route path='/DevOps_DockerKuber_Udemy' element={<DockerKuberUd/>} />
+        <Route path='/DevOps_DockerKuber_Coursera' element={<DockerKuberCo/>} />
+        <Route path='/DevOps_DockerKuber_Websites' element={<DockerKuberWebsites/>} />
+
+
+        <Route path='/DevOps_Cloud_Yt' element={<CloudYt/>} />
+        <Route path='/DevOps_Cloud_Udemy' element={<CloudUd/>} />
+        <Route path='/DevOps_Cloud_Coursera' element={<CloudCo/>} />
+        <Route path='/DevOps_Cloud_Doc' element={<CloudDoc/>} />
+        <Route path='/DevOps_Cloud_PDF' element={<CloudPdf/>} />
+
+
+        <Route path='/DevOps_CICD_Yt' element={<CiCdYt/>} /> 
+        <Route path='/DevOps_CICD_Udemy' element={<CiCdUd/>} />
+        <Route path='/DevOps_CICD_Coursera' element={<CiCdCo/>} />
+      
 
 
 
