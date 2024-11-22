@@ -2,49 +2,46 @@ import { useNavigate } from 'react-router-dom';
 import { Footer } from '../First';
 
 
-export function Cyber(){
+// import JavaScript from '../FrontOption/JavaScript';
+// import Reaction from '../FrontOption/Reaction';
+
+export function Android(){
 
 
 
-    var navigate = useNavigate(); 
+    var navigate = useNavigate(); // FrontEnd html
     var Lang = () => {
-      navigate('/Crypto'); 
+      navigate('/ReactNative'); // p_lang
 
     }; 
 
-    var navigate = useNavigate(); 
+    var navigate = useNavigate(); // FrontEnd Css
     var Dbms = () => {
-      navigate('/CNS'); 
+      navigate('/Flutter'); // DBMS
 
     };
 
-    var navigate = useNavigate(); 
+    var navigate = useNavigate(); // FrontEnd Js
     var Frame = () => {
-      navigate('/Web_Security'); 
+      navigate('/Kotlin_Java'); // Frame
 
     };
 
-    var navigate = useNavigate(); 
+    var navigate = useNavigate(); // FrontEnd React
     var Api = () => {
-      navigate('/IDAM'); 
+      navigate('/Git_GitHub'); // API
 
     };
 
-    var navigate = useNavigate(); 
+    var navigate = useNavigate(); // FrontEnd React
     var GitHub = () => { 
-      navigate('/Sniffing_SQLinjection'); 
+      navigate('/basicProjects'); // Git_GitHub
 
     };
 
-    var navigate = useNavigate(); 
+    var navigate = useNavigate(); // FrontEnd React
     var Gradle = () => { 
-      navigate('/Hijacking'); 
-
-    };
-
-    var navigate = useNavigate(); 
-    var Community = () => { 
-      navigate('/Cyber_Community'); 
+      navigate('/Gradle'); // Git_GitHub
 
     };
 
@@ -58,7 +55,7 @@ export function Cyber(){
 
         <div className="front_contain"> 
 
-        <h2 className="fr_1"> Cyber Security  </h2> 
+        <h2 className="fr_1"> Mobile App Development </h2> 
         <p className="fr_2"> All the resources are available through the links only kindly refer to this. We are providing the <br/> recommended platform not for any other promotions. </p>
      
         <p className="fr_rating">4.4 &#9733; &#9733; &#9733; &#9733; </p>
@@ -89,13 +86,12 @@ export function Cyber(){
 
             <div className="fr_butt">
 
-                <button className="fr_butt_click" onClick={Lang} >  Cryptography </button> 
-                <button className="fr_butt_click" onClick={Dbms}> Computer Network System </button>
-                <button className="fr_butt_click" onClick={Api}> IDAM </button> 
-                <button className="fr_butt_click" onClick={Frame}> Application & Web Security </button>
-                <button className="fr_butt_click" onClick={GitHub}> Sniffing / SQL Injection </button>
-                <button className="fr_butt_click" onClick={Gradle}> Session Hijacking </button>
-                <button className="fr_butt_click" onClick={Community} style={{ marginTop :  '10px'}}> Community Groups </button>
+                <button className="fr_butt_click" onClick={Lang} > React Native </button>
+                <button className="fr_butt_click" onClick={Dbms}> Flutter </button>
+                <button className="fr_butt_click" onClick={Frame}> Kotlin / Java </button>
+                <button className="fr_butt_click" onClick={Api}> Git / GitHub </button>
+                <button className="fr_butt_click" onClick={Gradle}> Gradle </button> 
+                <button className="fr_butt_click" onClick={GitHub}> Projects </button> 
                 
             </div>
 
@@ -105,5 +101,5 @@ export function Cyber(){
     )
 }
 
-export default Cyber;
+export default Android;
 

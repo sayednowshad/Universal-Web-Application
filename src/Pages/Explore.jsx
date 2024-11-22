@@ -33,7 +33,7 @@ export function Explore(){
 
     var Cloud = () =>{
 
-        navigate('/Cloud'); 
+        navigate('/Android'); 
     }
 
     var navigate = useNavigate(); // Cyber 
@@ -86,7 +86,7 @@ export function Explore(){
 
             <img src="https://media.licdn.com/dms/image/v2/D5612AQG_bD2NRnPM_w/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1710221337254?e=2147483647&v=beta&t=sy7Exjl2cXNFH2Up5Dxq-q8myVxo6Mw15-EU_9yGonM" style={{height : '250px' , width : '350px' , marginLeft : '30px' , borderRadius : '3px' , marginTop :'40px'}}  />
 
-            <h4 className="exp_tittle" onClick={Cloud} style={{marginLeft : '120px',  cursor : 'pointer'}} > Cloud Engineer   </h4>  
+            <h4 className="exp_tittle" onClick={Cloud} style={{marginLeft : '80px',  cursor : 'pointer'}} > Android App Development  </h4>  
         </div>
 
         <div className="exp_contain"> {/* Cyber   */}
