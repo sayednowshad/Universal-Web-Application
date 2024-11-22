@@ -233,6 +233,7 @@ import CloudCo from "./DevOps_Final_Pages/CloudCo";
 import CloudDoc from "./DevOps_Final_Pages/CloudDoc";
 import CloudPdf from "./DevOps_Final_Pages/CloudPdf";
 
+// Android App Development
 
 import ReactNative from "./Mobile_App_Resources/ReactNative";
 import Flutter from "./Mobile_App_Resources/Flutter";
@@ -261,6 +262,7 @@ import KotlinJavaUd from "./MobileApp_Final_Pages/KotlinJavaUd";
 import KotlinJavaCo from "./MobileApp_Final_Pages/KotlinJavaCo";
 import KotlinJavaPdf from "./MobileApp_Final_Pages/KotlinJavaPdf";
 
+// Cyber Security
 
 import CyberCommunity from "./Cyber_Resources/CyberCommunity";
 import Hijacking from "./Cyber_Resources/Hijacking";
@@ -268,6 +270,7 @@ import SQLInjection from "./Cyber_Resources/SQLInjection";
 import IDAM from "./Cyber_Resources/IDAM";
 import WebSecurity from "./Cyber_Resources/WebSecurity";
 import CNS from "./Cyber_Resources/CNS";
+import Crypto from "./Cyber_Resources/Crypto";
 
 
 import WebSecurityYt from "./Cyber_Final_Pages/WebSecurityYt";
@@ -299,10 +302,32 @@ import CNSUd from "./Cyber_Final_Pages/CNSUd";
 import CNSCo from "./Cyber_Final_Pages/CNSCo";
 import CNSGfg from "./Cyber_Final_Pages/CNSGfg";
 
+// UI / UX Designers
+
+import UI_UX from "./Webpages/UIUX";
+import WireFraming from "./UIUX_Resources/Wireframe_Prototype";
+import UIX_Community from "./UIUX_Resources/UIUXCommunity";
+import FigmaProjects from "./UIUX_Resources/FigmaProjects";
+import UIX_Plugins from "./UIUX_Resources/FigmaPlugins";
+import Figma from "./UIUX_Resources/Figma";
+import UI_UX_Platforms from "./UIUX_Resources/UIPlatforms";
+import UIX_AI_Tools from "./UIUX_Resources/AITools";
+
+import FigmaYt from "./UI_UX_Final_Pages/FigmaYt";
+import FigmaUd from "./UI_UX_Final_Pages/FigmaUd";
+import FigmaCo from "./UI_UX_Final_Pages/FigmaCo";
+import FigmaWebsites from "./UI_UX_Final_Pages/FigmaWebsites";
+
+import WireFrameYt from "./UI_UX_Final_Pages/WireFrameYt";
+import WireFrameUd from "./UI_UX_Final_Pages/WireFrameUd";
+import WireFrameCo from "./UI_UX_Final_Pages/WireFrameCo";
+
+import UIX_PlatformsYt from "./UI_UX_Final_Pages/UIXPlatformsYt";
+import UIX_PlatformsUd from "./UI_UX_Final_Pages/UIXPlatformsUd";
+import UIX_PlatformsCo from "./UI_UX_Final_Pages/UIXPlatformsCo";
 
 
-
-
+// AI / ML 
 
 
 
@@ -332,6 +357,8 @@ function App(){
           <Route path="/devops" element={<Devops/>} />
           <Route path="/Android" element={<Android/>} />
           <Route path="/cyber" element={<Cyber/>} />
+          <Route path="/UI_UX" element={<UI_UX/>} />
+
 
     {/* it is for the on-Click of the choice to the frontend bro  */} 
 
@@ -652,7 +679,6 @@ function App(){
         <Route path='/Cyber_Crypto_Udemy' element={<CryptoUd/>} />
         <Route path='/Cyber_Crypto_Coursera' element={<CryptoCo/>} />
         <Route path='/Cyber_Crypto_Gfg' element={<CryptoGfg/>} />
-
         <Route path='/Cyber_Community' element={<CyberCommunity/>} />
 
       
@@ -660,6 +686,40 @@ function App(){
         <Route path='/Cyber_CNS_Udemy' element={<CNSUd/>} />
         <Route path='/Cyber_CNS_Coursera' element={<CNSCo/>} />
         <Route path='/Cyber_CNS_Gfg' element={<CNSGfg/>} />
+
+
+        <Route path='/Figma' element={<Figma/>} />
+        <Route path='/AdobeXD_Canva_Sketch' element={<UI_UX_Platforms/>} />
+        <Route path='/WireFrame_Prototype' element={<WireFraming/>} />
+        <Route path='/AITools' element={<UIX_AI_Tools/>} />
+        <Route path='/Figma_Plugins' element={<UIX_Plugins/>} />
+        <Route path='/UIX_Community_Group' element={<UIX_Community/>} />
+        <Route path='/Projects' element={<FigmaProjects/>} />
+
+                          {/* Figma */}
+
+        <Route path='/UI_UX_Figma_Yt' element={<FigmaYt/>} />
+        <Route path='/UI_UX_Figma_Udemy' element={<FigmaUd/>} />
+        <Route path='/UI_UX_Figma_Coursera' element={<FigmaCo/>} />
+        <Route path='/UI_UX_Figma_Websites' element={<FigmaWebsites/>} />
+
+                 {/* Wire Framing & ProtoTypes */}
+
+        <Route path='/UI_UX_Wireframing_ProtoType_Yt' element={<WireFrameYt/>} />
+        <Route path='/UI_UX_Wireframing_ProtoType_Udemy' element={<WireFrameUd/>} />
+        <Route path='/UI_UX_Wireframing_ProtoType_Coursera' element={<WireFrameCo/>} />
+
+
+        <Route path='/UI_UX_Platforms_Yt' element={<UIX_PlatformsYt/>} />
+        <Route path='/UI_UX_Platforms_Udemy' element={<UIX_PlatformsUd/>} />
+        <Route path='/UI_UX_Platforms_Coursera' element={<UIX_PlatformsCo/>} />
+       
+
+
+        
+        
+
+
 
 
 
