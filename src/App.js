@@ -232,58 +232,74 @@ import CloudUd from "./DevOps_Final_Pages/CloudUd";
 import CloudCo from "./DevOps_Final_Pages/CloudCo";
 import CloudDoc from "./DevOps_Final_Pages/CloudDoc";
 import CloudPdf from "./DevOps_Final_Pages/CloudPdf";
+
+
 import ReactNative from "./Mobile_App_Resources/ReactNative";
 import Flutter from "./Mobile_App_Resources/Flutter";
 import KotlinJava from "./Mobile_App_Resources/KotlinJava";
 import GitGitHub from "./Mobile_App_Resources/GitGitHub";
 import Gradle from "./Mobile_App_Resources/Gradle";
 import AndroidProjects from "./Mobile_App_Resources/BasicProjects";
+
 import NativeUd from "./MobileApp_Final_Pages/NativeUd";
 import NativeYt from "./MobileApp_Final_Pages/NativeYt";
 import NativeCo from "./MobileApp_Final_Pages/NativeCo";
 import NativePdf from "./MobileApp_Final_Pages/NativePdf";
+
 import FlutterYt from "./MobileApp_Final_Pages/FlutterYt";
 import FlutterUd from "./MobileApp_Final_Pages/FlutterUd";
 import FlutterCo from "./MobileApp_Final_Pages/FlutterCo";
 import FlutterPdf from "./MobileApp_Final_Pages/FlutterPdf";
+
 import GradleYt from "./MobileApp_Final_Pages/GradleYt";
 import GradleUd from "./MobileApp_Final_Pages/GradleUd";
 import GradleCo from "./MobileApp_Final_Pages/GradleCo";
 import GradlePdf from "./MobileApp_Final_Pages/GradlePdf";
+
 import KotlinJavaYt from "./MobileApp_Final_Pages/KotlinJavaYt";
 import KotlinJavaUd from "./MobileApp_Final_Pages/KotlinJavaUd";
 import KotlinJavaCo from "./MobileApp_Final_Pages/KotlinJavaCo";
 import KotlinJavaPdf from "./MobileApp_Final_Pages/KotlinJavaPdf";
-import WebSecurityYt from "./Cyber_Final_Pages/WebSecurityYt";
-import WebSecurityUd from "./Cyber_Final_Pages/WebSecurityUd";
-import WebSecurityCo from "./Cyber_Final_Pages/WebSecurityCo";
-import WebSecurityPdf from "./Cyber_Final_Pages/WebSecurityPdf";
-import SQLInjectionYt from "./Cyber_Final_Pages/SQLInjectionYt";
-import SQLInjectionUd from "./Cyber_Final_Pages/SQLInjectionUd";
-import SQLInjectionCo from "./Cyber_Final_Pages/SQLInjectionCo";
-import SQLInjectionPdf from "./Cyber_Final_Pages/SQLInjectionPdf";
-import IDAMUd from "./Cyber_Final_Pages/IDAMUd";
-import IDAMYt from "./Cyber_Final_Pages/IDAMYT";
-import IDAMCo from "./Cyber_Final_Pages/IDAMCo";
-import HijackingYt from "./Cyber_Final_Pages/HijackingYt";
-import HijackingUd from "./Cyber_Final_Pages/HijackingUd";
-import HijackingCo from "./Cyber_Final_Pages/HijackingCo";
-import HijackingPdf from "./Cyber_Final_Pages/HijackingPdf";
-import CryptoYt from "./Cyber_Final_Pages/CryptoYt";
-import CryptoUd from "./Cyber_Final_Pages/CryptoUd";
-import CryptoCo from "./Cyber_Final_Pages/CryptoCo";
-import CryptoGfg from "./Cyber_Final_Pages/CryptoGfg";
-import CNSYt from "./Cyber_Final_Pages/CNSYt";
-import CNSUd from "./Cyber_Final_Pages/CNSUd";
-import CNSCo from "./Cyber_Final_Pages/CNSCo";
-import CNSGfg from "./Cyber_Final_Pages/CNSGfg";
+
+
 import CyberCommunity from "./Cyber_Resources/CyberCommunity";
 import Hijacking from "./Cyber_Resources/Hijacking";
 import SQLInjection from "./Cyber_Resources/SQLInjection";
 import IDAM from "./Cyber_Resources/IDAM";
 import WebSecurity from "./Cyber_Resources/WebSecurity";
 import CNS from "./Cyber_Resources/CNS";
-import Crypto from "./Cyber_Resources/Crypto";
+
+
+import WebSecurityYt from "./Cyber_Final_Pages/WebSecurityYt";
+import WebSecurityUd from "./Cyber_Final_Pages/WebSecurityUd";
+import WebSecurityCo from "./Cyber_Final_Pages/WebSecurityCo";
+import WebSecurityPdf from "./Cyber_Final_Pages/WebSecurityPdf";
+
+import SQLInjectionYt from "./Cyber_Final_Pages/SQLInjectionYt";
+import SQLInjectionUd from "./Cyber_Final_Pages/SQLInjectionUd";
+import SQLInjectionCo from "./Cyber_Final_Pages/SQLInjectionCo";
+import SQLInjectionPdf from "./Cyber_Final_Pages/SQLInjectionPdf";
+
+import IDAMUd from "./Cyber_Final_Pages/IDAMUd";
+import IDAMYt from "./Cyber_Final_Pages/IDAMYT";
+import IDAMCo from "./Cyber_Final_Pages/IDAMCo";
+
+import HijackingYt from "./Cyber_Final_Pages/HijackingYt";
+import HijackingUd from "./Cyber_Final_Pages/HijackingUd";
+import HijackingCo from "./Cyber_Final_Pages/HijackingCo";
+import HijackingPdf from "./Cyber_Final_Pages/HijackingPdf";
+
+import CryptoYt from "./Cyber_Final_Pages/CryptoYt";
+import CryptoUd from "./Cyber_Final_Pages/CryptoUd";
+import CryptoCo from "./Cyber_Final_Pages/CryptoCo";
+import CryptoGfg from "./Cyber_Final_Pages/CryptoGfg";
+
+import CNSYt from "./Cyber_Final_Pages/CNSYt";
+import CNSUd from "./Cyber_Final_Pages/CNSUd";
+import CNSCo from "./Cyber_Final_Pages/CNSCo";
+import CNSGfg from "./Cyber_Final_Pages/CNSGfg";
+
+
 
 
 
@@ -474,7 +490,7 @@ function App(){
         <Route path='/Backend_Jsnode_Codplat' element={<JsnodePrac/>} />
         <Route path='/Backend_Jsnode_Coursera' element={<JsnodeCo/>} />
 
-            {/* Game Development Starts Here pretty Excited  */}
+                            {/* Game Development  */}
 
         <Route path='/Unity' element={<Unity/>} />
         <Route path='/UI_Tools' element={<UITools/>} />
@@ -503,7 +519,7 @@ function App(){
         <Route path='/Game_GoDot_Doc' element={<GoDotDoc/>} />
         <Route path='/Game_GoDot_Github' element={<GoDotGitHub/>} />
 
-        {/* <---------------------- Below Contains DevOps Websites ----------------> */} 
+                                   {/*  DevOps Websites */} 
 
 
         <Route path='/SDLC' element={<SDLC/>} />
@@ -559,6 +575,7 @@ function App(){
         <Route path='/Gradle' element={<Gradle/>} />
         <Route path='/basicProjects' element={<AndroidProjects/>} />
 
+                  {/* Android App Development Pages */}
 
         <Route path='/Android_Native_Yt' element={<NativeYt/>} />
         <Route path='/Android_Native_Udemy' element={<NativeUd/>} />
@@ -584,55 +601,56 @@ function App(){
         <Route path='/Android_KotlinJava_Pdf' element={<KotlinJavaPdf/>} />
 
 
-                        {/* Cyber Security Page */}
+                        {/* Cyber Security */}
 
     
-      <Route path='/Crypto' element={<Crypto/>} />
+        <Route path='/Crypto' element={<Crypto/>} />
         <Route path='/CNS' element={<CNS/>} />
-    <Route path='/Web_Security' element={<WebSecurity/>} />
+        <Route path='/Web_Security' element={<WebSecurity/>} />
         <Route path='/IDAM' element={<IDAM/>} />
         <Route path='/Sniffing_SQLinjection' element={<SQLInjection/>} />
         <Route path='/Hijacking' element={<Hijacking/>} />
         <Route path='/Cyber_Community' element={<CyberCommunity/>} />
 
-
+                     {/* Cyber Security Page */}
+                   
         <Route path='/Cyber_WebSecurity_Yt' element={<WebSecurityYt/>} />
         <Route path='/Cyber_WebSecurity_Udemy' element={<WebSecurityUd/>} />
-    <Route path='/Cyber_WebSecurity_Coursera' element={<WebSecurityCo/>} />
+        <Route path='/Cyber_WebSecurity_Coursera' element={<WebSecurityCo/>} />
         <Route path='/Cyber_WebSecurity_Pdf' element={<WebSecurityPdf/>} />
 
 
         <Route path='/Cyber_SQLInjection_Yt' element={<SQLInjectionYt/>} />
         <Route path='/Cyber_SQLInjection_Udemy' element={<SQLInjectionUd/>} />
-    <Route path='/Cyber_SQLInjection_Coursera' element={<SQLInjectionCo/>} />
+        <Route path='/Cyber_SQLInjection_Coursera' element={<SQLInjectionCo/>} />
         <Route path='/Cyber_SQLInjection_Pdf' element={<SQLInjectionPdf/>} />
 
 
         <Route path='/Cyber_SQLInjection_Yt' element={<SQLInjectionYt/>} />
         <Route path='/Cyber_SQLInjection_Udemy' element={<SQLInjectionUd/>} />
-    <Route path='/Cyber_SQLInjection_Coursera' element={<SQLInjectionCo/>} />
+       <Route path='/Cyber_SQLInjection_Coursera' element={<SQLInjectionCo/>} />
         <Route path='/Cyber_SQLInjection_Pdf' element={<SQLInjectionPdf/>} />
        
 
         <Route path='/Cyber_IDAM_Yt' element={<IDAMYt/>} />
         <Route path='/Cyber_IDAM_Udemy' element={<IDAMUd/>} />
-    <Route path='/Cyber_IDAM_Coursera' element={<IDAMCo/>} />
+        <Route path='/Cyber_IDAM_Coursera' element={<IDAMCo/>} />
 
 
-    <Route path='/Cyber_IDAM_Yt' element={<IDAMYt/>} />
+        <Route path='/Cyber_IDAM_Yt' element={<IDAMYt/>} />
         <Route path='/Cyber_IDAM_Udemy' element={<IDAMUd/>} />
-    <Route path='/Cyber_IDAM_Coursera' element={<IDAMCo/>} />
+        <Route path='/Cyber_IDAM_Coursera' element={<IDAMCo/>} />
         
 
-    <Route path='/Cyber_Hijacking_Yt' element={<HijackingYt/>} />
+        <Route path='/Cyber_Hijacking_Yt' element={<HijackingYt/>} />
         <Route path='/Cyber_Hijacking_Udemy' element={<HijackingUd/>} />
-    <Route path='/Cyber_Hijacking_Coursera' element={<HijackingCo/>} />
+       <Route path='/Cyber_Hijacking_Coursera' element={<HijackingCo/>} />
         <Route path='/Cyber_Hijacking_Pdf' element={<HijackingPdf/>} />
 
 
         <Route path='/Cyber_Crypto_Yt' element={<CryptoYt/>} />
         <Route path='/Cyber_Crypto_Udemy' element={<CryptoUd/>} />
-    <Route path='/Cyber_Crypto_Coursera' element={<CryptoCo/>} />
+        <Route path='/Cyber_Crypto_Coursera' element={<CryptoCo/>} />
         <Route path='/Cyber_Crypto_Gfg' element={<CryptoGfg/>} />
 
         <Route path='/Cyber_Community' element={<CyberCommunity/>} />
@@ -640,7 +658,7 @@ function App(){
       
         <Route path='/Cyber_CNS_Yt' element={<CNSYt/>} />
         <Route path='/Cyber_CNS_Udemy' element={<CNSUd/>} />
-    <Route path='/Cyber_CNS_Coursera' element={<CNSCo/>} />
+        <Route path='/Cyber_CNS_Coursera' element={<CNSCo/>} />
         <Route path='/Cyber_CNS_Gfg' element={<CNSGfg/>} />
 
 
