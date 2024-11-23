@@ -2,44 +2,49 @@ import { useNavigate } from 'react-router-dom';
 import { Footer } from '../First';
 
 
-export function AIML(){ 
+export function MachineLearning(){ 
 
 
 
     var navigate = useNavigate(); 
     var Lang = () => {
 
-      navigate('/ML_Python'); 
+      navigate('/ML_Numpy'); // Algebra
 
     }; 
 
     var navigate = useNavigate(); 
     var Dbms = () => {
 
-      navigate('/Mathematics'); 
+      navigate('/ML_Pandas'); // Probability
 
     };
 
     var navigate = useNavigate(); 
     var Api = () => {
 
-      navigate('/Machine_Learning'); 
+      navigate('/ML_TensorFlow'); // Calculus 
 
     };
 
-    var navigate = useNavigate(); 
-    var GitHub = () => { 
 
-      navigate('/ML_Projects'); 
+    var navigate = useNavigate(); 
+    var Github = () => {
+      navigate('/ML_Keras'); 
 
     };
 
     var navigate = useNavigate(); 
     var Gradle = () => { 
-      navigate('/ML_Community'); 
+      navigate('/ML_Matplotlib'); 
 
     };
 
+    var navigate = useNavigate(); 
+    var Community = () => { 
+      navigate('/ML_PyTorch'); 
+
+    };
 
     return (
   
@@ -49,7 +54,7 @@ export function AIML(){
 
         <div className="front_contain"> 
 
-        <h2 className="fr_1"> Machine Learning  </h2> 
+        <h2 className="fr_1"> Cyber Security  </h2> 
         <p className="fr_2"> All the resources are available through the links only kindly refer to this. We are providing the <br/> recommended platform not for any other promotions. </p>
      
         <p className="fr_rating">4.4 &#9733; &#9733; &#9733; &#9733; </p>
@@ -80,11 +85,14 @@ export function AIML(){
 
             <div className="fr_butt">
 
-                <button className="fr_butt_click" onClick={Lang} >  Python </button> 
-                <button className="fr_butt_click" onClick={Dbms}> Mathematics  </button>
-                <button className="fr_butt_click" onClick={Api}> Machine Learning </button> 
-                <button className="fr_butt_click" onClick={GitHub}> Projects </button> 
-                <button className="fr_butt_click" onClick={Gradle}> Community </button> 
+                <button className="fr_butt_click" onClick={Lang} >  Numpy  </button> 
+                <button className="fr_butt_click" onClick={Dbms}> Pandas  </button>
+                <button className="fr_butt_click" onClick={Api}> TensorFlow </button> 
+                <button className="fr_butt_click" onClick={Github}> Keras </button> 
+                <button className="fr_butt_click" onClick={Gradle}> Matplotlib </button> 
+                <button className="fr_butt_click" onClick={Community}> PyTorch </button> 
+                
+                
                
                
             </div>
@@ -95,5 +103,5 @@ export function AIML(){
     )
 }
 
-export default AIML;
+export default MachineLearning;
 

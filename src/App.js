@@ -325,6 +325,47 @@ import WireFrameCo from "./UI_UX_Final_Pages/WireFrameCo";
 import UIX_PlatformsYt from "./UI_UX_Final_Pages/UIXPlatformsYt";
 import UIX_PlatformsUd from "./UI_UX_Final_Pages/UIXPlatformsUd";
 import UIX_PlatformsCo from "./UI_UX_Final_Pages/UIXPlatformsCo";
+import AIML from "./Webpages/AIML";
+import ML_Mathematics from "./ML_Resources_Pages/Mathematics";
+import MachineLearning from "./ML_Resources_Pages/MachineLearning";
+import Numpy from "./ML_Resources/Numpy";
+import Pandas from "./ML_Resources/Pandas";
+import TensorFlow from "./ML_Resources/TensorFlow";
+import Keras from "./ML_Resources/Keras";
+import Matplotlib from "./ML_Resources/Matplotlib";
+import PyTorch from "./ML_Resources/PyTorch";
+import ML_Python from "./ML_Resources_Pages/Python";
+import ML_Community from "./ML_Resources_Pages/ML_Community";
+import ML_Projects from "./ML_Resources_Pages/ML_Projects";
+import NumpyYt from "./ML_Resources_Final_Pages/NumpyYt";
+import NumpyUd from "./ML_Resources_Final_Pages/NumpyUd";
+import NumpyW3 from "./ML_Resources_Final_Pages/NumpyW3";
+import TensorFlowYt from "./ML_Resources_Final_Pages/TensorFlowYt";
+import TensorFlowUd from "./ML_Resources_Final_Pages/TensorFlowUd";
+import TensorFlowCo from "./ML_Resources_Final_Pages/TensorFlowCo";
+import PandasYt from "./ML_Resources_Final_Pages/PandasYt";
+import PandasUd from "./ML_Resources_Final_Pages/PandasUd";
+import PandasW3 from "./ML_Resources_Final_Pages/PandasW3";
+import PandasCo from "./ML_Resources_Final_Pages/PandasCo";
+import KerasYt from "./ML_Resources_Final_Pages/KerasYt";
+import KerasUd from "./ML_Resources_Final_Pages/KerasUd";
+import MatplotlibYt from "./ML_Resources_Final_Pages/MatplotlibYt";
+import MatplotlibUd from "./ML_Resources_Final_Pages/MatplotlibUd";
+import PyTorchYt from "./ML_Resources_Final_Pages/PyTorchYt";
+import PyTorchUd from "./ML_Resources_Final_Pages/PyTorchUd";
+import PyTorchCo from "./ML_Resources_Final_Pages/PyTorchCo";
+import ProbabilityYt from "./ML_Resources_Final_Pages/ProbabilityYt";
+import ProbabilityCo from "./ML_Resources_Final_Pages/ProbabilityCo";
+import ProbabilityUd from "./ML_Resources_Final_Pages/ProbabilityUd";
+import CalculusYt from "./ML_Resources_Final_Pages/CalculusYt";
+import CalculusUd from "./ML_Resources_Final_Pages/CalculusUd";
+import CalculusCo from "./ML_Resources_Final_Pages/CalculusCo";
+import AlgebraYt from "./ML_Resources_Final_Pages/AlgebraYt";
+import AlgebraUd from "./ML_Resources_Final_Pages/AlgebraUd";
+import AlgebraCo from "./ML_Resources_Final_Pages/AlgebraCo";
+import Probability from "./ML_Resources/ML_Probability";
+import Calculus from "./ML_Resources/ML_Calculus";
+import Liner_Algebra from "./ML_Resources/ML_Algebra";
 
 
 // AI / ML 
@@ -358,6 +399,8 @@ function App(){
           <Route path="/Android" element={<Android/>} />
           <Route path="/cyber" element={<Cyber/>} />
           <Route path="/UI_UX" element={<UI_UX/>} />
+          <Route path="/AI_ML" element={<AIML/>} />
+
 
 
     {/* it is for the on-Click of the choice to the frontend bro  */} 
@@ -703,16 +746,88 @@ function App(){
         <Route path='/UI_UX_Figma_Coursera' element={<FigmaCo/>} />
         <Route path='/UI_UX_Figma_Websites' element={<FigmaWebsites/>} />
 
-                 {/* Wire Framing & ProtoTypes */}
+                     {/* Wire Framing & ProtoTypes */}
 
         <Route path='/UI_UX_Wireframing_ProtoType_Yt' element={<WireFrameYt/>} />
         <Route path='/UI_UX_Wireframing_ProtoType_Udemy' element={<WireFrameUd/>} />
         <Route path='/UI_UX_Wireframing_ProtoType_Coursera' element={<WireFrameCo/>} />
 
+                     {/* Adobe XD , Canava , Sketch */}
 
         <Route path='/UI_UX_Platforms_Yt' element={<UIX_PlatformsYt/>} />
         <Route path='/UI_UX_Platforms_Udemy' element={<UIX_PlatformsUd/>} />
         <Route path='/UI_UX_Platforms_Coursera' element={<UIX_PlatformsCo/>} />
+
+
+                              {/* AI / ML  */}
+
+        <Route path='/Mathematics' element={<ML_Mathematics/>} />
+        <Route path='/Machine_Learning' element={<MachineLearning/>} />
+        <Route path='/ML_Python' element={<ML_Python/>} />
+        <Route path='/ML_Community' element={<ML_Community/>} />
+        <Route path='/ML_Projects' element={<ML_Projects/>} />
+
+
+        <Route path='/ML_Probability' element={<Probability/>} />
+        <Route path='/ML_Calculus' element={<Calculus/>} />
+        <Route path='/ML_Linear_Algebra' element={<Liner_Algebra/>} />
+
+                          {/* Machine Learning Options  */}
+
+        <Route path='/ML_Numpy' element={<Numpy/>} />
+        <Route path='/ML_Pandas' element={<Pandas/>} />
+        <Route path='/ML_TensorFlow' element={<TensorFlow/>} />
+        <Route path='/ML_Keras' element={<Keras/>} />
+        <Route path='/ML_Matplotlib' element={<Matplotlib/>} />
+        <Route path='/ML_PyTorch' element={<PyTorch/>} /> 
+
+                            {/* ML Pages */}
+
+        <Route path='/ML_Numpy_Yt' element={<NumpyYt/>} />
+        <Route path='/ML_Numpy_Udemy' element={<NumpyUd/>} />
+        <Route path='/ML_Numpy_W3' element={<NumpyW3/>} />
+
+        <Route path='/ML_TensorFlow_Yt' element={<TensorFlowYt/>} />
+        <Route path='/ML_TensorFlow_Udemy' element={<TensorFlowUd/>} />
+        <Route path='/ML_TensorFlow_Coursera' element={<TensorFlowCo/>} />
+
+        <Route path='/ML_Pandas_Yt' element={<PandasYt/>} />
+        <Route path='/ML_Pandas_Udemy' element={<PandasUd/>} />
+        <Route path='/ML_Pandas_Coursera' element={<PandasCo/>} />
+        <Route path='/ML_Pandas_W3' element={<PandasW3/>} />
+
+        <Route path='/ML_Keras_Yt' element={<KerasYt/>} />
+        <Route path='/ML_Keras_Udemy' element={<KerasUd/>} />
+
+        <Route path='/ML_Matplotlib_Yt' element={<MatplotlibYt/>} />
+        <Route path='/ML_Matplotlib_Udemy' element={<MatplotlibUd/>} />
+
+        <Route path='/ML_PyTorch_Yt' element={<PyTorchYt/>} />
+        <Route path='/ML_PyTorch_Udemy' element={<PyTorchUd/>} />
+        <Route path='/ML_PyTorch_Coursera' element={<PyTorchCo/>} />
+
+        <Route path='/ML_Probability_Yt' element={<ProbabilityYt/>} />
+        <Route path='/ML_Probability_Udemy' element={<ProbabilityUd/>} />
+        <Route path='/ML_Probability_Coursera' element={<ProbabilityCo/>} />
+
+        <Route path='/ML_Calculus_Yt' element={<CalculusYt/>} />
+        <Route path='/ML_Calculus_Udemy' element={<CalculusUd/>} />
+        <Route path='/ML_Calculus_Coursera' element={<CalculusCo/>} />
+
+        <Route path='/ML_Liner_Algebra_Yt' element={<AlgebraYt/>} />
+        <Route path='/ML_Liner_Algebra_Udemy' element={<AlgebraUd/>} />
+        <Route path='/ML_Liner_Algebra_Coursera' element={<AlgebraCo/>} />
+
+
+
+
+
+
+
+        
+
+
+
        
 
 
