@@ -11,7 +11,7 @@ export function FigmaCo(){
         <>
         
 
-        <h1 className="html_co_heading">These are the <strong style={{textDecoration : 'underline', color : 'blue'}}>Top 5</strong> recommended Coursera courses links that you can refer  with certifications  </h1>
+        <h1 className="html_co_heading">These are the <strong style={{textDecoration : 'underline', color : 'blue'}}>Top 5</strong> recommended Coursera with courses links that you can refer  with certifications  </h1>
 
 
     <h4 className="des_co_html">
